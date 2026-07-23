@@ -1,7 +1,7 @@
 ---
-tipo: cierre-de-fase
-fase: 01
-titulo: Cierre de la Fase 1 — antes de pasar a la ramificación
+Tipo: cierre-de-fase
+Fase: 01
+Título: Cierre de la Fase 1 — antes de pasar a la ramificación
 ---
 
 ## 🏁 Cierre de la Fase 1 — Fundamentos de Git

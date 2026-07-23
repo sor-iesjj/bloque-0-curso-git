@@ -1,7 +1,7 @@
 ---
-tipo: cierre-de-fase
-fase: 03
-titulo: Cierre de la Fase 3 — antes de seguir
+Tipo: cierre-de-fase
+Fase: 03
+Título: Cierre de la Fase 3 — antes de seguir
 ---
 
 ## 🏁 Cierre de la Fase 3 — Colaboración con GitHub

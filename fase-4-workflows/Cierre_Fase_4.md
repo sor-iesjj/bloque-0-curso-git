@@ -1,7 +1,7 @@
 ---
-tipo: cierre-de-fase
-fase: 04
-titulo: Cierre de la Fase 4 — antes de seguir
+Tipo: cierre-de-fase
+Fase: 04
+Título: Cierre de la Fase 4 — antes de seguir
 ---
 
 ## 🏁 Cierre de la Fase 4 — Workflows avanzados

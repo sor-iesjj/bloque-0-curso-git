@@ -1,7 +1,7 @@
 ---
-tipo: cierre-de-fase
-fase: 05
-titulo: Cierre de la Fase 5 y del curso
+Tipo: cierre-de-fase
+Fase: 05
+Título: Cierre de la Fase 5 y del curso
 ---
 
 ## 🏁 Cierre de la Fase 5 — Integración profesional (y fin del curso)

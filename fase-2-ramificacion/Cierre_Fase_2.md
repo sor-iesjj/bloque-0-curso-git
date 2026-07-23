@@ -1,7 +1,7 @@
 ---
-tipo: cierre-de-fase
-fase: 02
-titulo: Cierre de la Fase 2 — antes de seguir
+Tipo: cierre-de-fase
+Fase: 02
+Título: Cierre de la Fase 2 — antes de seguir
 ---
 
 ## 🏁 Cierre de la Fase 2 — Ramificación y estrategias de merge
