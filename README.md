@@ -62,6 +62,31 @@ Los comandos `git` son iguales en todas partes. Cuando cambie algo (crear carpet
 
 ---
 
+## 📹 Grabación y entrega (LÉEME — aplica a TODAS las prácticas)
+
+Igual que en la Fase 0, **cada práctica se graba entera con OBS**, de principio a fin. No es un repaso al final: se ve **cómo la haces tú**. Cada ejercicio trae su propia caja **📹 Grabación** y un **Paso 0** para prepararte y arrancar la grabación.
+
+> [!important] Las 5 reglas de grabación
+> 1. **Grabación completa con OBS**, sin cortes, hablando lo que haces.
+> 2. **Preséntate al empezar** y **muestra tu identidad** en pantalla (Teams, correo `@alu.edu.gva.es` o, cuando lo tengas, tu perfil de GitHub). Di qué vas a hacer.
+> 3. **Timestamps SIEMPRE** en la descripción: `00:00 Presentación` y **uno por cada paso** (`mm:ss`).
+> 4. **Nombre del vídeo:** `Fn.n.n · <título>` — donde `n.n.n` = **fase . nivel . ejercicio**. Ejemplo: `F1.1.1 · Marko instala Git`.
+> 5. **Súbelo a la playlist de su fase** como **"No listado"**.
+
+> [!info] Una playlist por fase
+> | Fase | Playlist de YouTube |
+> |---|---|
+> | 1 | `Curso Git — Fase 1` |
+> | 2 | `Curso Git — Fase 2` |
+> | 3 | `Curso Git — Fase 3` |
+> | 4 | `Curso Git — Fase 4` |
+> | 5 | `Curso Git — Fase 5` |
+
+> [!warning] Entrega ÚNICA (no se duplica casa/centro)
+> A diferencia de la Fase 0 (prerequisitos), aquí **no** se entrega dos veces. Se graba y se sube el vídeo **una sola vez**: el trabajo va a un **repositorio**, y duplicar casa/centro generaría conflictos. El criterio de almacenaje digital es el mismo de siempre.
+
+---
+
 ## Índice de fases
 
 | Fase | Carpeta | Qué aprende Marko |
