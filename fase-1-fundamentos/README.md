@@ -4,12 +4,14 @@
 
 Marko arranca: instala Git, configura su identidad, crea su primera bóveda, hace commits, sube a GitHub. De cero a tener su trabajo en la nube.
 
-> [!important] 🔀 Si estás haciendo también los PRERREQUISITOS de SOR (lo normal)
-> Este curso va **en paralelo** con el bloque de prerrequisitos, y **el Nivel 1 se solapa con él**: las Fases 0.1, 0.2.1, 0.2.2 y 0.3 hacen exactamente lo mismo que los ejercicios `EJ-01-01-01` a `EJ-01-01-05`.
+> [!danger] 🛑 Antes de empezar: los PRERREQUISITOS tienen que estar TERMINADOS
+> Este curso arranca **cuando has cerrado el bloque de prerrequisitos entero** (Fases 0.1 a 0.7.2). No es opcional y no es un consejo: los ejercicios de aquí dan por hecho que ya tienes Git instalado, tu clave SSH puesta, tu repositorio de apuntes funcionando y varios commits hechos.
 >
-> **No lo hagas dos veces.** Empieza por el **[`EJ-01-01-00` — Marko comprueba que trae el equipo listo](EJ-01-01-00.md)**: en 20 minutos verificas que lo tienes todo y **te saltas los cinco**. Si algo falla, ese mismo ejercicio te dice a qué fase de prerrequisitos ir.
+> **Y como consecuencia, buena parte del Nivel 1 ya la has hecho.** Las Fases 0.1, 0.2.1, 0.2.2 y 0.3 son exactamente los ejercicios `EJ-01-01-01` a `EJ-01-01-05`.
 >
-> Los cinco del Nivel 1 se quedan como **material de consulta** y para quien llegue **sin** haber hecho prerrequisitos.
+> **No los repitas.** Empieza por el **[`EJ-01-01-00` — Marko comprueba que trae el equipo listo](EJ-01-01-00.md)**: en 20 minutos verificas que todo sigue en su sitio y **te saltas los cinco**. Si alguna comprobación falla, ese ejercicio te dice exactamente a qué fase de prerrequisitos volver.
+>
+> Los cinco del Nivel 1 se quedan como **material de consulta**.
 
 ---
 
