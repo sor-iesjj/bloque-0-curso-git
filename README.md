@@ -70,17 +70,13 @@ Igual que en la Fase 0, **cada práctica se graba entera con OBS**, de principio
 > 1. **Grabación completa con OBS**, sin cortes, hablando lo que haces.
 > 2. **Preséntate al empezar** y **muestra tu identidad** en pantalla (Teams, correo `@alu.edu.gva.es` o, cuando lo tengas, tu perfil de GitHub). Di qué vas a hacer.
 > 3. **Timestamps SIEMPRE** en la descripción: `00:00 Presentación` y **uno por cada paso** (`mm:ss`).
-> 4. **Nombre del vídeo:** `Fn.n.n · <título>` — donde `n.n.n` = **fase . nivel . ejercicio**. Ejemplo: `F1.1.1 · Marko instala Git`.
-> 5. **Súbelo a la playlist de su fase** como **"No listado"**.
+> 4. **Nombre del vídeo:** `B0.G.f.n.e · <título>` — donde `f.n.e` = **fase . nivel . ejercicio**. Ejemplo: `B0.G.1.1.1 · Marko instala Git`.
+> 5. **Súbelo a tu playlist del curso** como **"No listado"**.
 
-> [!info] Una playlist por fase
-> | Fase | Playlist de YouTube |
-> |---|---|
-> | 1 | `Curso Git — Fase 1` |
-> | 2 | `Curso Git — Fase 2` |
-> | 3 | `Curso Git — Fase 3` |
-> | 4 | `Curso Git — Fase 4` |
-> | 5 | `Curso Git — Fase 5` |
+> [!info] 🎬 UNA sola playlist para todo el curso
+> Se llama **`B0_Curso_Git`** — igual que tu carpeta de apuntes y que la carpeta del material. La creas una vez, al principio, y ahí van **todos** los vídeos del curso.
+>
+> **No hagas una playlist por fase.** El vídeo ya lleva la fase en su nombre (`B0.G.1.2.1`), así que dentro de la playlist salen ordenados solos.
 
 > [!warning] Entrega ÚNICA (no se duplica casa/centro)
 > A diferencia de la Fase 0 (prerequisitos), aquí **no** se entrega dos veces. Se graba y se sube el vídeo **una sola vez**: el trabajo va a un **repositorio**, y duplicar casa/centro generaría conflictos. El criterio de almacenaje digital es el mismo de siempre.
