@@ -93,7 +93,7 @@ git-<fase>.<nivel>.<numero>-<titulo-en-minusculas-con-guiones>.md
 
 ---
 
-## ⌨️ Los comandos que he usado
+## ⌨️ Comandos y pasos importantes
 
 *(Los comandos de Git de este ejercicio, con una línea diciendo QUÉ HACE cada uno.
 No pegues la terminal entera: quédate con los que importan.)*
@@ -134,12 +134,18 @@ Copiar del enunciado NO cuenta como respuesta.)*
 - **Vídeo de esta práctica:**
 - **Playlist del curso:** `B0_Curso_Git`
 - **Repositorio de Marko usado hoy:**
+
+---
+
+## 💭 Dudas / a repasar
+
+*(Lo que no te ha quedado claro.)*
 ```
 
-> [!success] 🎯 Por qué este curso pide el apartado de comandos y el de Shell no
-> Porque **Git no se aprende de memoria, se aprende por qué hace cada cosa**. `git reset`, `git revert` y `git checkout` suenan parecido y hacen cosas muy distintas: el día que te equivoques de uno, tu propia entrada te va a sacar del apuro.
+> [!success] 🎯 Esta estructura es la MISMA en todo el curso
+> La misma en prerrequisitos, en el curso de Shell y en Boochan. **Se aprende una vez y se repite doscientas** — la viste por primera vez en la **Bloque 0 · Fase 0.1**.
 >
-> Es tu chuleta, escrita por ti. **La vas a usar todo el curso y en el proyecto Boochan.**
+> Y en Git el apartado de comandos es el que más te va a servir: `git reset`, `git revert` y `git checkout` suenan parecido y hacen cosas muy distintas. **Es tu chuleta, escrita por ti**, y la vas a usar todo el año.
 
 > [!warning] ⚠️ El apartado que más se deja vacío es el de los fallos
 > Y es el que más dice de ti. **Un ejercicio donde todo salió a la primera es casi siempre un ejercicio que no se ha entendido**, o uno donde se copió y pegó sin mirar.
