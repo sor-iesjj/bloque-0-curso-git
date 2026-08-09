@@ -15,7 +15,7 @@
 
 ## **1 · LOS TRES ENTREGABLES DE CADA EJERCICIO**
 
-Cada uno de los **68 ejercicios** produce **tres cosas**, y las tres van juntas:
+Cada uno de los **69 ejercicios** produce **tres cosas**, y las tres van juntas:
 
 | # | Entregable | Dónde vive |
 | :--- | :--- | :--- |

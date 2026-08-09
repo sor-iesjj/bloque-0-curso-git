@@ -135,7 +135,7 @@ git status
 - **❌ Mal:** *"not a git repository"* → **te has equivocado de carpeta.** `Trimestre_1` es tu repositorio `apuntes-sor-t1`; si Git no lo reconoce, estás fuera.
 
 > [!danger] 🛑 No sigas hasta que `git status` responda
-> Si no, escribirás 68 entradas de apuntes que no se van a subir a ninguna parte.
+> Si no, escribirás 69 entradas de apuntes que no se van a subir a ninguna parte.
 
 ---
 
@@ -176,7 +176,7 @@ git push
 **Abre `github.com/TU-USUARIO/apuntes-sor-t1` en el navegador.**
 
 - **✅ Bien:** ves `B0_Curso_Git` con `prueba.md` dentro.
-- **❌ Mal:** si el `push` falla, **arréglalo hoy**. Es el mismo problema que tendrás en los 68 ejercicios.
+- **❌ Mal:** si el `push` falla, **arréglalo hoy**. Es el mismo problema que tendrás en los 69 ejercicios.
 
 **Y ahora borra el fichero de prueba**, que ya ha cumplido:
 
