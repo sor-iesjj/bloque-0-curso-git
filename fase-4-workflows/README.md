@@ -20,7 +20,7 @@ Marko gestiona releases, hotfixes de emergencia, recuperaciones, hooks personali
 - [`EJ-04-02-02`](EJ-04-02-02.md) — Marko usa `git reflog` para recuperar trabajo perdido
 - [`EJ-04-02-03`](EJ-04-02-03.md) — Marko crea funciones para sus comandos más frecuentes en la terminal
 - [`EJ-04-02-04`](EJ-04-02-04.md) — Marko busca quién y cuándo cambió una línea concreta
-- [`EJ-04-02-05`](EJ-04-02-05.md) — Marko automatiza con un pre-commit hook (validación de formato)
+- [`EJ-04-02-05`](EJ-04-02-05.md) — Marko automatiza con un hook commit-msg (validación de formato)
 
 ### 🔴 N3 — Sobresaliente (5 ejercicios)
 
