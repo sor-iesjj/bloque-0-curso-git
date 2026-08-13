@@ -35,7 +35,7 @@ Marko arranca: instala Git, configura su identidad, crea su primera bóveda, hac
 - [`EJ-01-02-02`](EJ-01-02-02.md) — Marko se equivoca y deshace el cambio antes de commitear
 - [`EJ-01-02-03`](EJ-01-02-03.md) — Marko crea su .gitignore (no subir basura) · 🔁 *repaso de la Fase 0.3.b, + `git rm --cached`*
 - [`EJ-01-02-04`](EJ-01-02-04.md) — Marko navega su histórico (`git log`)
-- [`EJ-01-02-05`](EJ-01-02-05.md) — Marko clona el repo de Carlos para consultarlo · 🔁 *repaso de la Fase 0.4, ahora sobre un repo ajeno*
+- [`EJ-01-02-05`](EJ-01-02-05.md) — Marko clona el repo de Carlos para consultarlo · 🔁 *repaso de la Bloque 0 · Fase 0.4.a, ahora sobre un repo ajeno*
 - [`EJ-01-02-06`](EJ-01-02-06.md) — Marko sincroniza cambios remotos (`git pull`)
 
 ### 🔴 N3 — Sobresaliente (4 ejercicios)

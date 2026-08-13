@@ -83,7 +83,7 @@ El material vive en un **repositorio plantilla** mío. Tú **sacas tu propia cop
 5. **`Create repository`**
 
 > [!info] 🎓 Qué acaba de pasar
-> Ese repositorio **ya no es mío: es tuyo.** Tiene su propio historial y puedes escribir, romper y subir sin pedirle permiso a nadie. Es lo mismo que hiciste en la **Bloque 0 · Fase 0.4** con Boochan.
+> Ese repositorio **ya no es mío: es tuyo.** Tiene su propio historial y puedes escribir, romper y subir sin pedirle permiso a nadie. Es lo mismo que hiciste en la **Bloque 0 · Fase 0.4.a** con Boochan.
 
 ### **3B · Clónalo en tu bóveda**
 
