@@ -33,12 +33,12 @@ Este curso te enseña Git **antes de que lo necesites de verdad**, para que el d
 | :--- | :--- | :--- |
 | **1** | **Entérate de cómo se trabaja:** dónde va cada cosa y por qué. Es para leer: no se crea nada | **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)** |
 | **2** | **Entérate de qué tienes que entregar** y cómo se llaman tus ficheros | **[📦 Entregables](02_ENTREGABLES.md)** |
-| **3** | **Haz el primer ejercicio:** ahí montas la bóveda de Marko, el material y tu bitácora, paso a paso | [`EJ-01-01-00`](fase-1-fundamentos/EJ-01-01-00.md) |
+| **3** | **Haz el primer ejercicio:** crea `Boveda_Marko`, clona el curso completo, ábrelo en Obsidian y prepara tu bitácora | [`EJ-01-01-00`](fase-1-fundamentos/EJ-01-01-00.md) |
 
 > [!danger] 🛑 Los dos primeros son de leer; el tercero es donde se monta todo
 > Si te saltas el 1, no sabrás por qué trabajas en otra bóveda. Si te saltas el 2, escribirás los apuntes al final de memoria — que **cuenta como no entregado**.
 >
-> **No hace falta traer ninguna carpeta hecha:** la bóveda de Marko se crea dentro del primer ejercicio.
+> **No hace falta traer ninguna carpeta hecha:** la bóveda de Marko y la copia local del curso se crean dentro del primer ejercicio. Hasta el Paso 3 se usa el PDF de arranque o, si todavía no está disponible, la página pública del ejercicio; después se lee en Obsidian.
 
 ---
 

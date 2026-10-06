@@ -7,7 +7,7 @@
 ---
 
 > [!important] 📌 Esta página es para leer. Aquí no se crea nada
-> **Todo lo que hay que montar se monta en el primer ejercicio**, el [`EJ-01-01-00`](fase-1-fundamentos/EJ-01-01-00.md): la bóveda de Marko, la copia del material y tu bitácora. Paso a paso, con la ruta exacta, y grabando.
+> **Todo lo que hay que montar se monta en el primer ejercicio**, el [`EJ-01-01-00`](fase-1-fundamentos/EJ-01-01-00.md): la bóveda de Marko, la copia del material y tu bitácora. En su Paso 3 descargas el repositorio completo y lo abres en Obsidian. Se hace dentro del vídeo para que quede registrado.
 >
 > Esta página te explica **dónde va a estar cada cosa y por qué**, para que cuando lo montes sepas qué estás haciendo.
 
@@ -51,7 +51,7 @@ Este curso **no empieza de cero**. De los prerrequisitos traes tres cosas, y el 
 
 | Carpeta | Qué haces en ella | Repositorio en GitHub | En qué ejercicio la creas |
 | :--- | :--- | :--- | :--- |
-| `B0_Curso_Git/` | **Leer** los enunciados | `bloque-0-curso-git` | `EJ-01-01-00`, Paso 3 |
+| `B0_Curso_Git/` | **Leer en Obsidian** los enunciados descargados | `bloque-0-curso-git` | `EJ-01-01-00`, Paso 3 |
 | `Bitacora/` | **Escribir** tus apuntes y **entregarlos** | `bitacora-curso-git` | `EJ-01-01-00`, Pasos 4 a 6 |
 | `Manuales/` | **Ejecutar** los ejercicios | `manuales-boochan` | `EJ-01-01-03`, y se sube a GitHub en el `EJ-01-01-05` |
 
@@ -108,14 +108,11 @@ Desde el segundo ejercicio, todos se hacen igual:
 
 ## **5 · EL ORDEN PARA EMPEZAR**
 
-| # | Qué | Dónde |
-| :--- | :--- | :--- |
-| 1 | Lee qué se entrega y cómo se llama cada entrada | **[📦 Entregables](02_ENTREGABLES.md)** |
-| 2 | Haz el primer ejercicio: **ahí montas todo** | **[`EJ-01-01-00`](fase-1-fundamentos/EJ-01-01-00.md)** |
-| 3 | Sigue por el índice de la fase | **[Fase 1](fase-1-fundamentos/README.md)** |
-
-> [!tip] 💡 Hasta que montes la bóveda de Marko, lee desde GitHub
-> El material todavía no está en tu ordenador: se clona en el Paso 3 del primer ejercicio. Hasta entonces léelo en `github.com/sor-iesjj/bloque-0-curso-git` o en el PDF de la Fase 1.
+1. Lee [Entregables](02_ENTREGABLES.md) y el inicio del [`EJ-01-01-00`](fase-1-fundamentos/EJ-01-01-00.md) en el **PDF de arranque** que te facilite el profesor. Si todavía no lo tienes, puedes consultar esas páginas iniciales en `https://github.com/sor-iesjj/bloque-0-curso-git` hasta completar el Paso 3. Es la única lectura provisional: el curso aún no está descargado.
+2. En el **Paso 2** de ese ejercicio, localiza tu carpeta `SOR` y crea `Boveda_Marko` **al lado de** `Boveda_SOR`.
+3. En el **Paso 3**, entra en `https://github.com/sor-iesjj/bloque-0-curso-git`, crea tu copia con **«Use this template»** y clónala en `SOR/Boveda_Marko/B0_Curso_Git`. El ejercicio da los comandos y las comprobaciones exactas; grábalo como parte de la práctica.
+4. Abre **`Boveda_Marko` como bóveda en Obsidian**. Dentro, entra en `B0_Curso_Git/00_INDICE.md`, vuelve a `fase-1-fundamentos/EJ-01-01-00.md` y continúa por el Paso 4 desde **la copia local**. El Paso 3 del ejercicio explica cómo comprobar que abriste la carpeta correcta.
+5. Después sigue el [índice de la Fase 1](fase-1-fundamentos/README.md). Para los demás ejercicios leerás el material desde Obsidian; los PDF son un apoyo y GitHub sirve para obtener la copia y comprobar las entregas.
 
 ---
 
