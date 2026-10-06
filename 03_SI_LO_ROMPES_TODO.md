@@ -121,6 +121,13 @@ git log --oneline
 
 - **✅ Bien:** en `Manuales` el remoto nombra `manuales-boochan` y el `log` muestra tus commits; en `Bitacora` el remoto nombra `bitacora-curso-git` y están tus entradas.
 
+> [!warning] ⚠️ Las carpetas vacías no vuelven
+> Git guarda ficheros, no carpetas: una carpeta de `Manuales` en la que nunca metiste nada (por ejemplo `04_red`) **no está en GitHub** y no ha vuelto. No has perdido nada, y los ejercicios la crean cuando la necesitan. Si quieres dejarlo como estaba, dentro de `Manuales`:
+>
+> ```bash
+> mkdir -p 00_infraestructura 01_linux_server 02_active_directory 03_almacenamiento 04_red 05_seguridad 06_integracion_windows
+> ```
+
 > [!warning] ⚠️ Tus otras ramas están, pero hay que pedirlas
 > Un clon recién hecho solo trae **abierta** la rama principal. Las demás aparecen en `git branch -a` como `remotes/origin/…`. Para volver a trabajar en una:
 >

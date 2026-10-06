@@ -117,7 +117,7 @@ La estructura obligatoria, la plantilla copiable y cómo se sube: **[📦 Entreg
 > Ahí tienes el mapa completo: las cinco fases, cómo funciona cada ejercicio y **los tres pasos previos que hay que dar antes de la Fase 1**.
 >
 > Y esos tres pasos, por orden:
-> 1. **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)** — crear la bóveda de Marko, traer el curso a tu ordenador y montar tu bitácora. **20 minutos.**
+> 1. **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)** — dónde va cada cosa y por qué. **Aquí no se crea nada:** todo se monta en el primer ejercicio, paso a paso.
 > 2. **[📦 Entregables](02_ENTREGABLES.md)** — qué se entrega, cómo se llama y cómo se sube. **5 minutos.**
 > 3. Y ya sí, la [Fase 1](fase-1-fundamentos/README.md).
 

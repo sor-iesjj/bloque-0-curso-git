@@ -2,7 +2,7 @@
 
 **Duración:** 4 h presenciales
 
-Marko arranca: comprueba su equipo, crea su repositorio de manuales, hace commits, sube a GitHub. De cero a tener su trabajo en la nube.
+Marko arranca: monta su sitio de trabajo, comprueba su equipo, crea su repositorio de manuales, hace commits, sube a GitHub. De cero a tener su trabajo en la nube.
 
 > [!danger] 🛑 Antes de empezar: los PRERREQUISITOS tienen que estar TERMINADOS
 > Este curso arranca **cuando has cerrado el bloque de prerrequisitos entero** (Fases 0.1 a 0.7.2). No es opcional y no es un consejo: los ejercicios de aquí dan por hecho que ya tienes Git instalado, tu clave SSH puesta, tu repositorio de apuntes funcionando y varios commits hechos.
@@ -11,8 +11,8 @@ Marko arranca: comprueba su equipo, crea su repositorio de manuales, hace commit
 >
 > **Los otros tres sí se hacen, y no son opcionales.** `EJ-01-01-03`, `-04` y `-05` crean el repositorio **`Manuales`** dentro de la bóveda de Marko, le hacen su primer commit y lo suben a GitHub. Te sonarán a la **Bloque 0 · Fase 0.3** —es el mismo gesto—, pero **sin ellos no existe el repositorio sobre el que trabaja todo el resto del curso**.
 
-> [!danger] 🛑 ANTES del primer ejercicio va «Antes de empezar». No es opcional
-> **[🛠️ Antes de empezar](../01_ANTES_DE_EMPEZAR.md)** es donde **creas** la bóveda de Marko, clonas el material y montas tu bitácora con su primer commit. El `EJ-01-01-00` solo **comprueba** que eso existe: si lo abres sin haberlo hecho, te va a pedir un repositorio y unos commits que no tienes.
+> [!danger] 🛑 Empieza por el `EJ-01-01-00`: ahí se monta todo
+> El primer ejercicio **crea** la bóveda de Marko dentro de tu carpeta `SOR`, clona el material y monta tu bitácora con su primer commit, paso a paso y con la ruta exacta. **No hay que traer ninguna carpeta hecha.**
 >
 > Y todo el curso ocurre en `Boveda_Marko`: ni un comando dentro de `Boveda_SOR`.
 
@@ -20,9 +20,9 @@ Marko arranca: comprueba su equipo, crea su repositorio de manuales, hace commit
 
 ## Índice de ejercicios
 
-### 🔵 N0 — Diagnóstico (1 ejercicio) · **EMPIEZA AQUÍ**
+### 🔵 N0 — Arranque (1 ejercicio) · **EMPIEZA AQUÍ**
 
-- [`EJ-01-01-00`](EJ-01-01-00.md) — **Marko comprueba que trae el equipo listo**
+- [`EJ-01-01-00`](EJ-01-01-00.md) — **Marko monta su sitio de trabajo y comprueba su equipo**
 
 ### ⚪ N1 — Repaso (2 ejercicios) · *no se hacen ni se entregan: ya están hechos en prerrequisitos*
 

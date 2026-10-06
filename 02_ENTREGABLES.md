@@ -43,8 +43,8 @@ En la bóveda de Marko, directamente dentro de tu bitácora, **sin subcarpetas**
 Boveda_Marko/Bitacora/
 ```
 
-> [!warning] ⚠️ Esa carpeta la creaste en el Paso 3 de [🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)
-> Y es un repositorio conectado a `bitacora-curso-git`. Si no la tienes todavía, vuelve ahí y créala antes de seguir.
+> [!info] 📌 Esa carpeta la creas en el primer ejercicio
+> En el [`EJ-01-01-00`](fase-1-fundamentos/EJ-01-01-00.md), Pasos 4 a 6: la carpeta, el repositorio `bitacora-curso-git` en GitHub y tu primer commit. No tienes que tenerla antes.
 
 ---
 

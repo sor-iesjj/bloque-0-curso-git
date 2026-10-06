@@ -31,14 +31,14 @@ Este curso te enseña Git **antes de que lo necesites de verdad**, para que el d
 
 | # | Qué | Dónde está explicado |
 | :--- | :--- | :--- |
-| **1** | **Prepara tu sitio de trabajo:** crea la bóveda de Marko, descarga el curso y monta tu bitácora | **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)** |
+| **1** | **Entérate de cómo se trabaja:** dónde va cada cosa y por qué. Es para leer: no se crea nada | **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)** |
 | **2** | **Entérate de qué tienes que entregar** y cómo se llaman tus ficheros | **[📦 Entregables](02_ENTREGABLES.md)** |
-| **3** | **Empieza la Fase 1** | [Fase 1](fase-1-fundamentos/README.md) |
+| **3** | **Haz el primer ejercicio:** ahí montas la bóveda de Marko, el material y tu bitácora, paso a paso | [`EJ-01-01-00`](fase-1-fundamentos/EJ-01-01-00.md) |
 
-> [!danger] 🛑 Si te saltas el paso 1, no tendrás dónde trabajar ni dónde guardar
-> Y si te saltas el 2, escribirás los apuntes al final de memoria — que **cuenta como no entregado**.
+> [!danger] 🛑 Los dos primeros son de leer; el tercero es donde se monta todo
+> Si te saltas el 1, no sabrás por qué trabajas en otra bóveda. Si te saltas el 2, escribirás los apuntes al final de memoria — que **cuenta como no entregado**.
 >
-> Son **veinticinco minutos** entre los dos. Te ahorran el curso entero.
+> **No hace falta traer ninguna carpeta hecha:** la bóveda de Marko se crea dentro del primer ejercicio.
 
 ---
 
