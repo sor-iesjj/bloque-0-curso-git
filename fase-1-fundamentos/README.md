@@ -11,8 +11,10 @@ Marko arranca: comprueba su equipo, crea su repositorio de manuales, hace commit
 >
 > **Los otros tres sí se hacen, y no son opcionales.** `EJ-01-01-03`, `-04` y `-05` crean el repositorio **`Manuales`** dentro de la bóveda de Marko, le hacen su primer commit y lo suben a GitHub. Te sonarán a la **Bloque 0 · Fase 0.3** —es el mismo gesto—, pero **sin ellos no existe el repositorio sobre el que trabaja todo el resto del curso**.
 
-> [!danger] 🛑 Todo este curso ocurre en `Boveda_Marko`
-> Ni un comando dentro de `Boveda_SOR`. Si no has hecho todavía **[🛠️ Antes de empezar](../01_ANTES_DE_EMPEZAR.md)**, para aquí y hazlo: sin eso no tienes ni la bóveda de Marko ni tu bitácora.
+> [!danger] 🛑 ANTES del primer ejercicio va «Antes de empezar». No es opcional
+> **[🛠️ Antes de empezar](../01_ANTES_DE_EMPEZAR.md)** es donde **creas** la bóveda de Marko, clonas el material y montas tu bitácora con su primer commit. El `EJ-01-01-00` solo **comprueba** que eso existe: si lo abres sin haberlo hecho, te va a pedir un repositorio y unos commits que no tienes.
+>
+> Y todo el curso ocurre en `Boveda_Marko`: ni un comando dentro de `Boveda_SOR`.
 
 ---
 
