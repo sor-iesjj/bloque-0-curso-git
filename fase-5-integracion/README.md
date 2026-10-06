@@ -21,13 +21,12 @@ Marko automatiza con GitHub Actions, despliega a servidor, gestiona credenciales
 - [`EJ-05-02-03`](EJ-05-02-03.md) — Marko usa GitHub CLI (`gh`) para todo desde terminal
 - [`EJ-05-02-04`](EJ-05-02-04.md) — Marko crea un Personal Access Token con scope mínimo
 
-### 🔴 N3 — Sobresaliente (5 ejercicios)
+### 🔴 N3 — Sobresaliente (4 ejercicios)
 
-- [`EJ-05-03-01`](EJ-05-03-01.md) — Marko crea un workflow CI/CD que despliega a un servidor
-- [`EJ-05-03-02`](EJ-05-03-02.md) — Marko responde a una fuga de credenciales
-- [`EJ-05-03-03`](EJ-05-03-03.md) — Marko usa submodules para plantillas compartidas
-- [`EJ-05-03-04`](EJ-05-03-04.md) — Marko añade un workflow para revisar dependencias (Dependabot)
-- [`EJ-05-03-05`](EJ-05-03-05.md) — Marko implementa un flujo Git+GitHub completo para un equipo de 5
+- [`EJ-05-03-01`](EJ-05-03-01.md) — Marko responde a una fuga de credenciales
+- [`EJ-05-03-02`](EJ-05-03-02.md) — Marko usa submodules para plantillas compartidas
+- [`EJ-05-03-03`](EJ-05-03-03.md) — Marko añade un workflow para revisar dependencias (Dependabot)
+- [`EJ-05-03-04`](EJ-05-03-04.md) — Marko implementa un flujo Git+GitHub completo para un equipo de 5
 
 ---
 

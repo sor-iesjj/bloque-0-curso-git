@@ -52,7 +52,7 @@ Cada fase tiene **su propio índice** con sus ejercicios ordenados por dificulta
 | **2** | **[Ramificación](fase-2-ramificacion/README.md)** | Trabajar en paralelo sin pisarte a ti mismo | 14 | Cuando pruebes algo sin romper lo que funciona |
 | **3** | **[Colaboración](fase-3-colaboracion/README.md)** | Pull requests, revisión y conflictos con otra persona | 14 | El **trabajo en binomio** |
 | **4** | **[Workflows avanzados](fase-4-workflows/README.md)** | Releases, hotfixes y recuperar lo que creías perdido | 13 | El día que algo se rompa de verdad |
-| **5** | **[Integración profesional](fase-5-integracion/README.md)** | Automatizar, desplegar y gestionar credenciales | 12 | **Boochan**, y tu primer trabajo |
+| **5** | **[Integración profesional](fase-5-integracion/README.md)** | Automatizar y gestionar credenciales | 11 | **Boochan**, y tu primer trabajo |
 
 > [!tip] 💡 Cómo se recorre
 > **En orden.** Cada fase se apoya en la anterior: en la 3 vas a resolver conflictos entre ramas que aprendiste a crear en la 2.
