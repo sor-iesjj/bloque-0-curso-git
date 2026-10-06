@@ -7,7 +7,7 @@
 ---
 
 > [!danger] 🛑 No empieces ningún ejercicio sin haber leído esta página
-> Aquí está **todo lo que se te va a pedir**: dónde van tus apuntes, cómo se llaman, qué llevan dentro y cómo se entregan.
+> Aquí está **todo lo que se te va a pedir**: dónde va tu bitácora, cómo se llaman, qué llevan dentro y cómo se entregan.
 >
 > Si empiezas a hacer ejercicios y dejas los apuntes "para luego", te va a pasar una de dos: o los escribes de memoria al final —y se nota— o los pierdes. **Las dos cuentan como no entregado.**
 
@@ -19,31 +19,32 @@ Cada uno de los **69 ejercicios** produce **tres cosas**, y las tres van juntas:
 
 | # | Entregable | Dónde vive |
 | :--- | :--- | :--- |
-| 1 | **Una entrada de apuntes** | Tu repositorio `apuntes-sor-t1`, en GitHub |
+| 1 | **Una entrada en tu bitácora** | Tu repositorio `bitacora-curso-git`, en GitHub |
 | 2 | **Un vídeo** | Tu playlist `B0_Curso_Git`, **No listado** |
-| 3 | **El `push`** que sube la entrada | Tu repositorio de apuntes |
+| 3 | **El `push`** que sube la entrada | Se lanza desde `Boveda_Marko/Bitacora` |
 
 **No hay entrega parcial.** Un vídeo sin entrada no cuenta, y una entrada sin el enlace del vídeo tampoco.
 
-> [!warning] ⚠️ El trabajo de Marko NO es un entregable
-> En este curso trabajas en **la bóveda de Marko** —creas sus repos, los rompes, los arreglas—. Eso es **el ejercicio**, y queda demostrado en el vídeo.
+> [!warning] ⚠️ Lo que haces en `Manuales` NO es un entregable
+> Los ejercicios se hacen en el repositorio **`Manuales`** —lo creas, lo rompes, lo arreglas—. Eso es **el ejercicio**, y queda demostrado en el vídeo.
 >
-> **Lo que se entrega es tu entrada de apuntes**, en tu repositorio. Los repos de Marko son tuyos y puedes hacer con ellos lo que quieras: nadie los va a corregir.
+> **Lo que se entrega es tu entrada**, en el repositorio **`Bitacora`**. `Manuales` es tu campo de pruebas: nadie lo va a corregir, y si lo destrozas se repone ([🧯 Si lo rompes todo](03_SI_LO_ROMPES_TODO.md)).
+
+> [!danger] 🛑 Todo ocurre en `Boveda_Marko`. En `Boveda_SOR` no se entrega nada de este curso
+> Ni apuntes, ni material, ni pruebas. Mientras dure el curso de Git, **tu bóveda real se queda cerrada**. El porqué, en [🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md).
 
 ---
 
 ## **2 · DÓNDE VAN TUS APUNTES**
 
-Dentro de tu bóveda, en esta ruta exacta:
+En la bóveda de Marko, directamente dentro de tu bitácora, **sin subcarpetas**:
 
 ```
-00_Apuntes/Trimestre_1/B0_Curso_Git/
+Boveda_Marko/Bitacora/
 ```
 
-> [!warning] ⚠️ Esa carpeta la creaste en el paso 2 de [🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)
-> Si no la tienes todavía, vuelve ahí y créala antes de seguir.
->
-> *(Si tu bóveda usa otro trimestre porque te incorporaste más tarde, cambia el número. Lo que no cambia es `B0_Curso_Git`.)*
+> [!warning] ⚠️ Esa carpeta la creaste en el Paso 3 de [🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)
+> Y es un repositorio conectado a `bitacora-curso-git`. Si no la tienes todavía, vuelve ahí y créala antes de seguir.
 
 ---
 
@@ -191,21 +192,32 @@ A diferencia de los prerrequisitos, aquí **no se entrega dos veces**. Grabas y 
 
 1. **Escribe tu entrada mientras trabajas**, no al terminar.
 2. **Sube el vídeo** a `B0_Curso_Git` y **pega su enlace dentro de la entrada**.
-3. **Sube la entrada**, desde tu repositorio de apuntes:
+3. **Cambia de repositorio.** Abre la terminal sobre la carpeta `Bitacora` (clic derecho → `Abrir Git Bash aquí`; si vienes de `Manuales`, vale `cd ../Bitacora`) y **comprueba dónde estás**:
 
 ```bash
-cd ~/Boveda_SOR/00_Apuntes/Trimestre_1
-git add B0_Curso_Git/
-git commit -m "Curso Git: EJ-01-02-01 terminado"
+pwd
+git remote -v
+```
+
+   Tiene que terminar en `Boveda_Marko/Bitacora` y nombrar `bitacora-curso-git`. **Si no, no subas nada.**
+
+4. **Sube la entrada:**
+
+```bash
+git add git-1.2.1-amplia-el-manual-y-registra.md
+git commit -m "EJ-01-02-01 · entrada de apuntes"
 git push
 ```
 
-4. **Compruébalo en GitHub con tus ojos.** Que el `push` no dé error no significa que esté donde crees.
+5. **Compruébalo en GitHub con tus ojos.** Que el `push` no dé error no significa que esté donde crees.
 
-> [!danger] 🛑 El `push` se hace desde `Trimestre_1`, no desde la bóveda de Marko
-> Es el error nº1 de este curso: hacer el `push` estando dentro de un repo de Marko y no entender por qué la entrada no aparece.
+> [!danger] 🛑 El `push` de la entrega se hace desde `Bitacora`, no desde `Manuales`
+> Es el error nº1 de este curso: hacer el `push` estando todavía en `Manuales` y no entender por qué la entrada no aparece en `bitacora-curso-git`.
 >
-> **Cuando dudes: `pwd`.**
+> **Cuando dudes: `git remote -v`.** Te dice a qué repositorio va a ir lo que subas.
+
+> [!info] 🎓 Cada ejercicio trae estos comandos al final, con su nombre de fichero
+> No tienes que volver a esta página cada vez: el último paso de cada ejercicio es esta misma entrega, ya escrita.
 
 ---
 
@@ -213,12 +225,14 @@ git push
 
 ```
 POR CADA EJERCICIO
-├── APUNTES   00_Apuntes/Trimestre_1/B0_Curso_Git/git-f.n.e-titulo.md
+├── APUNTES   Boveda_Marko/Bitacora/git-f.n.e-titulo.md
 │              escrita MIENTRAS trabajas, con la estructura del punto 4
 ├── VÍDEO     playlist "B0_Curso_Git", No listado, con timestamps
 │              nombre: B0.G.f.n.e · Título   ·   identifícate al empezar
-└── PUSH      desde Trimestre_1 (¡no desde la bóveda de Marko!)
-               y comprobado en GitHub
+└── PUSH      desde Bitacora (¡no desde Manuales!)
+               antes: git remote -v   ·   después: comprobado en GitHub
+
+EN Boveda_SOR NO SE TOCA NADA DURANTE ESTE CURSO
 ```
 
 ---

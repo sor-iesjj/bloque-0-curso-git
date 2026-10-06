@@ -8,7 +8,7 @@
 Es un **curso de Git autocontenido**, en forma de **simulación**: sigues a **Marko**, un técnico junior ficticio, y aprendes Git **desde cero**. Sirve para **entender la filosofía de trabajo** que usaremos todo el año (documentar en Obsidian, versionar con Git, sincronizar con GitHub).
 
 > [!important] Es INDEPENDIENTE de tu trabajo real
-> Este curso vive en **la bóveda de Marko**, separada de tu **bóveda SOR** real (la de la Fase 0 / prerequisitos, con la que trabajas de verdad todo el año). Aquí **no se da nada por hecho**: se instala, se configura y se crea todo otra vez, en el mundo de Marko. La forma de trabajar es **la misma** que en tu bóveda real, pero **no se mezclan**.
+> Este curso vive **entero** en **la bóveda de Marko**, separada de tu **bóveda SOR** real (la de los prerrequisitos, con la que trabajas de verdad todo el año). El material, tus apuntes y los ejercicios: los tres van en `Boveda_Marko`. La forma de trabajar es **la misma** que en tu bóveda real, pero **no se mezclan**: mientras dure este curso, **en `Boveda_SOR` no se ejecuta ni un comando**.
 
 ---
 
@@ -28,23 +28,26 @@ Cada ejercicio cuenta una situación real de Marko en la empresa.
 Marko organiza su trabajo con el **mismo patrón** que usarás tú en real, pero en su propia bóveda:
 
 ```
-📁 Tu carpeta personal
+📁 SOR/                          ← la carpeta de la Bloque 0 · Fase 0.1
 │
-├── Boveda_SOR/                  ← 🎓 TU trabajo (apuntes + material del curso)
+├── Boveda_SOR/                  ← 🔒 TU trabajo real. En este curso NO SE TOCA
 │
 └── Boveda_Marko/                ← 🎭 se abre en Obsidian. NUNCA se hace git init aquí
-    ├── Bitacora/                    ← su diario de trabajo (repositorio propio)
-    │   └── Bloque_1_Fundamentos_Git/
-    └── Manuales/                    ← los procedimientos que documenta (repositorio propio)
+    ├── B0_Curso_Git/                ← 📖 este material (repositorio `bloque-0-curso-git`)
+    ├── Bitacora/                    ← ✍️ tus apuntes y entregas (repositorio `bitacora-curso-git`)
+    └── Manuales/                    ← 🛠️ los ejercicios (repositorio `manuales-boochan`)
 ```
 
 > [!danger] 🛑 `Boveda_Marko` va FUERA de `Boveda_SOR`, como hermana
-> Si la metes dentro de un repositorio tendrías **Git dentro de Git**; si la metes dentro de tu bóveda, **Obsidian dentro de Obsidian**. Las dos cosas dan problemas.
+> Las dos dentro de tu carpeta `SOR`, una al lado de la otra. Si la metes dentro de un repositorio tendrías **Git dentro de Git**; si la metes dentro de tu bóveda, **Obsidian dentro de Obsidian**. Las dos cosas dan problemas.
 >
 > El detalle y el porqué, en **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)**.
 
 > [!danger] La regla de oro (igual que en tu trabajo real)
-> `Boveda_Marko/` es solo el contenedor: **no se versiona**. Lo que son repositorios son las **carpetas de dentro** (`Bitacora/`, `Manuales/`), cada una independiente. Nunca `git init` sobre la bóveda entera, o tendrías "git dentro de git".
+> `Boveda_Marko/` es solo el contenedor: **no se versiona**. Lo que son repositorios son las **carpetas de dentro** (`B0_Curso_Git/`, `Bitacora/`, `Manuales/`), cada una independiente. Nunca `git init` sobre la bóveda entera, o tendrías "git dentro de git".
+
+> [!tip] 🧯 Y si lo destrozas, se repone
+> Para eso es una bóveda aparte: se borra entera y se vuelve a bajar de GitHub. El procedimiento, en **[🧯 Si lo rompes todo](03_SI_LO_ROMPES_TODO.md)**.
 
 ---
 
@@ -86,7 +89,7 @@ Igual que en la Fase 0, **cada práctica se graba entera con OBS**, de principio
 > El curso de Shell usa `B0.S.1.1.1`. Este usa **`B0.G.1.1.1`** — `G` de *Git* — para que un vídeo suelto se sepa de qué curso sale sin abrirlo. Son dos cursos distintos del mismo Bloque 0 y sus vídeos conviven en el mismo canal.
 
 > [!info] 🎬 UNA sola playlist para todo el curso
-> Se llama **`B0_Curso_Git`** — igual que tu carpeta de apuntes y que la carpeta del material. La creas una vez, al principio, y ahí van **todos** los vídeos del curso.
+> Se llama **`B0_Curso_Git`** — igual que la carpeta del material. La creas una vez, al principio, y ahí van **todos** los vídeos del curso.
 >
 > **No hagas una playlist por fase.** El vídeo ya lleva la fase en su nombre (`B0.G.1.2.1`), así que dentro de la playlist salen ordenados solos.
 
@@ -97,12 +100,12 @@ Igual que en la Fase 0, **cada práctica se graba entera con OBS**, de principio
 
 ## Qué hay que entregar, además del vídeo
 
-**Una entrada de apuntes por ejercicio**, en `00_Apuntes/Trimestre_1/B0_Curso_Git/`, con el nombre que te da el propio ejercicio en su **Paso 0** (`git-1.2.1-amplia-el-manual-y-registra.md`).
+**Una entrada por ejercicio en tu bitácora**, en `Boveda_Marko/Bitacora/`, con el nombre que te da el propio ejercicio en su **Paso 0** (`git-1.2.1-amplia-el-manual-y-registra.md`).
 
 Lleva un apartado que no tienen los demás cursos: **los comandos que has usado, con una línea diciendo qué hace cada uno.** Es tu chuleta de Git, escrita por ti, y la vas a usar todo el año.
 
-> [!warning] ⚠️ Lo que haces en la bóveda de Marko NO se entrega
-> Eso **es** el ejercicio, y queda demostrado en el vídeo. Lo que se corrige es **tu entrada de apuntes**, en tu repositorio.
+> [!warning] ⚠️ Lo que haces en `Manuales` NO se entrega
+> Eso **es** el ejercicio, y queda demostrado en el vídeo. Lo que se corrige es **tu entrada**, en tu repositorio `bitacora-curso-git`.
 
 La estructura obligatoria, la plantilla copiable y cómo se sube: **[📦 Entregables](02_ENTREGABLES.md)**.
 
@@ -114,7 +117,7 @@ La estructura obligatoria, la plantilla copiable y cómo se sube: **[📦 Entreg
 > Ahí tienes el mapa completo: las cinco fases, cómo funciona cada ejercicio y **los tres pasos previos que hay que dar antes de la Fase 1**.
 >
 > Y esos tres pasos, por orden:
-> 1. **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)** — traer el curso a tu ordenador, crear tu cuaderno y la bóveda de Marko. **20 minutos.**
+> 1. **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)** — crear la bóveda de Marko, traer el curso a tu ordenador y montar tu bitácora. **20 minutos.**
 > 2. **[📦 Entregables](02_ENTREGABLES.md)** — qué se entrega, cómo se llama y cómo se sube. **5 minutos.**
 > 3. Y ya sí, la [Fase 1](fase-1-fundamentos/README.md).
 

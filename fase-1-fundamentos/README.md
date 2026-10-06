@@ -2,16 +2,17 @@
 
 **Duración:** 4 h presenciales
 
-Marko arranca: instala Git, configura su identidad, crea su primera bóveda, hace commits, sube a GitHub. De cero a tener su trabajo en la nube.
+Marko arranca: comprueba su equipo, crea su repositorio de manuales, hace commits, sube a GitHub. De cero a tener su trabajo en la nube.
 
 > [!danger] 🛑 Antes de empezar: los PRERREQUISITOS tienen que estar TERMINADOS
 > Este curso arranca **cuando has cerrado el bloque de prerrequisitos entero** (Fases 0.1 a 0.7.2). No es opcional y no es un consejo: los ejercicios de aquí dan por hecho que ya tienes Git instalado, tu clave SSH puesta, tu repositorio de apuntes funcionando y varios commits hechos.
 >
-> **Y como consecuencia, buena parte del Nivel 1 ya la has hecho.** Las Fases 0.1, 0.2.1, 0.2.2 y 0.3 son exactamente los ejercicios `EJ-01-01-01` a `EJ-01-01-05`.
+> **Y como consecuencia, dos ejercicios del Nivel 1 ya los has hecho.** Instalar Git y configurar tu identidad (**Bloque 0 · Fase 0.2.1**) son los ejercicios `EJ-01-01-01` y `EJ-01-01-02`. **Esos dos no se repiten.**
 >
-> **No los repitas.** Empieza por el **[`EJ-01-01-00` — Marko comprueba que trae el equipo listo](EJ-01-01-00.md)**: en 20 minutos verificas que todo sigue en su sitio y **te saltas los cinco**. Si alguna comprobación falla, ese ejercicio te dice exactamente a qué fase de prerrequisitos volver.
->
-> Los cinco del Nivel 1 se quedan como **material de consulta**.
+> **Los otros tres sí se hacen, y no son opcionales.** `EJ-01-01-03`, `-04` y `-05` crean el repositorio **`Manuales`** dentro de la bóveda de Marko, le hacen su primer commit y lo suben a GitHub. Te sonarán a la **Bloque 0 · Fase 0.3** —es el mismo gesto—, pero **sin ellos no existe el repositorio sobre el que trabaja todo el resto del curso**.
+
+> [!danger] 🛑 Todo este curso ocurre en `Boveda_Marko`
+> Ni un comando dentro de `Boveda_SOR`. Si no has hecho todavía **[🛠️ Antes de empezar](../01_ANTES_DE_EMPEZAR.md)**, para aquí y hazlo: sin eso no tienes ni la bóveda de Marko ni tu bitácora.
 
 ---
 
@@ -19,13 +20,16 @@ Marko arranca: instala Git, configura su identidad, crea su primera bóveda, hac
 
 ### 🔵 N0 — Diagnóstico (1 ejercicio) · **EMPIEZA AQUÍ**
 
-- [`EJ-01-01-00`](EJ-01-01-00.md) — **Marko comprueba que trae el equipo listo** ← sustituye a los cinco de abajo si ya has hecho la Fase 0.3
+- [`EJ-01-01-00`](EJ-01-01-00.md) — **Marko comprueba que trae el equipo listo**
 
-### 🟢 N1 — Mínimo (5 ejercicios) · *solo si NO has hecho prerrequisitos*
+### ⚪ N1 — Repaso (2 ejercicios) · *no se hacen ni se entregan: ya están hechos en prerrequisitos*
 
 - [`EJ-01-01-01`](EJ-01-01-01.md) — Marko instala Git por primera vez
 - [`EJ-01-01-02`](EJ-01-01-02.md) — Marko se identifica ante Git
-- [`EJ-01-01-03`](EJ-01-01-03.md) — Marko crea su bóveda y su primer repositorio de manuales
+
+### 🟢 N1 — Mínimo (3 ejercicios) · **OBLIGATORIOS: montan el repositorio `Manuales`**
+
+- [`EJ-01-01-03`](EJ-01-01-03.md) — Marko crea su primer repositorio de manuales
 - [`EJ-01-01-04`](EJ-01-01-04.md) — Marko hace su primer commit (manual de Ubuntu Server)
 - [`EJ-01-01-05`](EJ-01-01-05.md) — Marko publica su repositorio de manuales en GitHub
 

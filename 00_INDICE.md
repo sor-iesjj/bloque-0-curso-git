@@ -16,9 +16,12 @@ Este curso te enseña Git **antes de que lo necesites de verdad**, para que el d
 > Cada ejercicio arranca de una situación real: algo que le pide **Lucía**, su responsable, o un lío que le ha dejado **Carlos**, el senior que lo sabe todo y no documenta nada.
 
 > [!important] 📌 Es INDEPENDIENTE de tu trabajo real
-> Este curso vive en **la bóveda de Marko**, separada de tu `Boveda_SOR`. Aquí no se da nada por hecho: se crea todo otra vez, en el mundo de Marko, y **se rompe a propósito**.
+> Este curso vive **entero** en **la bóveda de Marko**, separada de tu `Boveda_SOR`: el material, tus apuntes y los ejercicios. Ahí se crea todo otra vez y **se rompe a propósito**.
 >
-> La forma de trabajar es **la misma** que en tu bóveda real. Pero **no se mezclan**, y el porqué está explicado en [🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md).
+> La forma de trabajar es **la misma** que en tu bóveda real. Pero **no se mezclan** —mientras dure el curso, en `Boveda_SOR` no se ejecuta nada—, y el porqué está explicado en [🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md).
+
+> [!tip] 🧯 Si lo rompes todo
+> Para eso es una bóveda aparte: se borra y se vuelve a bajar de GitHub. Está en **[🧯 Si lo rompes todo](03_SI_LO_ROMPES_TODO.md)**.
 
 ---
 
@@ -28,7 +31,7 @@ Este curso te enseña Git **antes de que lo necesites de verdad**, para que el d
 
 | # | Qué | Dónde está explicado |
 | :--- | :--- | :--- |
-| **1** | **Prepara tu sitio de trabajo:** descarga el curso, crea tu cuaderno y la bóveda de Marko | **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)** |
+| **1** | **Prepara tu sitio de trabajo:** crea la bóveda de Marko, descarga el curso y monta tu bitácora | **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)** |
 | **2** | **Entérate de qué tienes que entregar** y cómo se llaman tus ficheros | **[📦 Entregables](02_ENTREGABLES.md)** |
 | **3** | **Empieza la Fase 1** | [Fase 1](fase-1-fundamentos/README.md) |
 
@@ -78,7 +81,7 @@ Todos siguen la misma estructura, así que en cuanto hagas dos ya sabes dónde e
 💼 Situación        el encargo de Lucía o el lío de Carlos
 📚 Fundamento       la idea, la trampa, el vocabulario
 📹 Grabación        las obligaciones del vídeo
-🛠️ Procedimiento    Paso 0 (abre tus apuntes) y los pasos del ejercicio
+🛠️ Procedimiento    📍 dónde trabajas · Paso 0 (abre tu entrada) · los pasos · la entrega
 🚩 Errores          tabla: error · qué pasa · cómo evitarlo
 ✅ Entregables      qué subes y cómo se llama
 🎓 Qué has aprendido + Siguiente
@@ -92,14 +95,14 @@ Todos siguen la misma estructura, así que en cuanto hagas dos ya sabes dónde e
 
 | | |
 | :--- | :--- |
-| 📝 **Una entrada de apuntes** | En `00_Apuntes/Trimestre_1/B0_Curso_Git/` |
+| 📝 **Una entrada en tu bitácora** | En `Boveda_Marko/Bitacora/` |
 | 📹 **Un vídeo** | En tu playlist `B0_Curso_Git`, No listado |
-| ⬆️ **El `push`** | Que sube la entrada a GitHub |
+| ⬆️ **El `push`** | Que sube la entrada a tu repositorio `bitacora-curso-git` |
 
 El detalle completo —ruta, nombres, plantilla copiable y cómo se entrega— está en **[📦 Entregables](02_ENTREGABLES.md)**.
 
-> [!warning] ⚠️ Lo que haces en la bóveda de Marko no se entrega
-> Eso **es** el ejercicio, y queda demostrado en el vídeo. Lo que se corrige es **tu entrada de apuntes**.
+> [!warning] ⚠️ Lo que haces en `Manuales` no se entrega
+> Eso **es** el ejercicio, y queda demostrado en el vídeo. Lo que se corrige es **tu entrada de la bitácora**.
 
 ---
 
