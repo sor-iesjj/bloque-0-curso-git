@@ -38,7 +38,7 @@ Este curso te enseña Git **antes de que lo necesites de verdad**, para que el d
 > [!danger] 🛑 Los dos primeros son de leer; el tercero es donde se monta todo
 > Si te saltas el 1, no sabrás por qué trabajas en otra bóveda. Si te saltas el 2, escribirás los apuntes al final de memoria — que **cuenta como no entregado**.
 >
-> **No hace falta traer ninguna carpeta hecha:** la bóveda de Marko y la copia local del curso se crean dentro del primer ejercicio. Hasta el Paso 3 se usa el PDF de arranque o, si todavía no está disponible, la página pública del ejercicio; después se lee en Obsidian.
+> **No hace falta traer ninguna carpeta hecha:** la bóveda de Marko y el clon del repositorio público del profesor se crean dentro del primer ejercicio. Hasta el Paso 3 se lee la página pública del ejercicio; después se continúa en Obsidian. Si el profesor entrega un PDF actualizado, sirve como apoyo.
 
 ---
 

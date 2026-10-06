@@ -88,10 +88,10 @@ pwd
 
 - **✅ Bien:** la ruta termina en `/SOR/Boveda_Marko`.
 
-Y baja tus tres repositorios. **Cambia `TU-USUARIO` por tu usuario de GitHub**, y no quites el nombre de carpeta del final de cada línea:
+Y baja los tres repositorios. **El primero contiene los enunciados del profesor y se clona directamente**; los otros dos contienen tu trabajo. Cambia `TU-USUARIO` por tu usuario de GitHub **solo en las dos últimas líneas**. No quites el nombre de carpeta del final:
 
 ```bash
-git clone git@github.com:TU-USUARIO/bloque-0-curso-git.git B0_Curso_Git
+git clone https://github.com/sor-iesjj/bloque-0-curso-git.git B0_Curso_Git
 git clone git@github.com:TU-USUARIO/bitacora-curso-git.git Bitacora
 git clone git@github.com:TU-USUARIO/manuales-boochan.git Manuales
 ls

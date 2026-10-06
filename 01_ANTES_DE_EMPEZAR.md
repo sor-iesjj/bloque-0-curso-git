@@ -51,7 +51,7 @@ Este curso **no empieza de cero**. De los prerrequisitos traes tres cosas, y el 
 
 | Carpeta | Qué haces en ella | Repositorio en GitHub | En qué ejercicio la creas |
 | :--- | :--- | :--- | :--- |
-| `B0_Curso_Git/` | **Leer en Obsidian** los enunciados descargados | `bloque-0-curso-git` | `EJ-01-01-00`, Paso 3 |
+| `B0_Curso_Git/` | **Leer en Obsidian** los enunciados descargados; actualizar cuando lo indique el profesor | `sor-iesjj/bloque-0-curso-git` | `EJ-01-01-00`, Paso 3 |
 | `Bitacora/` | **Escribir** tus apuntes y **entregarlos** | `bitacora-curso-git` | `EJ-01-01-00`, Pasos 4 a 6 |
 | `Manuales/` | **Ejecutar** los ejercicios | `manuales-boochan` | `EJ-01-01-03`, y se sube a GitHub en el `EJ-01-01-05` |
 
@@ -108,11 +108,27 @@ Desde el segundo ejercicio, todos se hacen igual:
 
 ## **5 · EL ORDEN PARA EMPEZAR**
 
-1. Lee [Entregables](02_ENTREGABLES.md) y el inicio del [`EJ-01-01-00`](fase-1-fundamentos/EJ-01-01-00.md) en el **PDF de arranque** que te facilite el profesor. Si todavía no lo tienes, puedes consultar esas páginas iniciales en `https://github.com/sor-iesjj/bloque-0-curso-git` hasta completar el Paso 3. Es la única lectura provisional: el curso aún no está descargado.
+1. Lee [Entregables](02_ENTREGABLES.md) y el inicio del [`EJ-01-01-00`](fase-1-fundamentos/EJ-01-01-00.md) en `https://github.com/sor-iesjj/bloque-0-curso-git` hasta completar el Paso 3. Si tienes un PDF actualizado, úsalo como apoyo. Esta lectura en el navegador es provisional: aún no has descargado el curso.
 2. En el **Paso 2** de ese ejercicio, localiza tu carpeta `SOR` y crea `Boveda_Marko` **al lado de** `Boveda_SOR`.
-3. En el **Paso 3**, entra en `https://github.com/sor-iesjj/bloque-0-curso-git`, crea tu copia con **«Use this template»** y clónala en `SOR/Boveda_Marko/B0_Curso_Git`. El ejercicio da los comandos y las comprobaciones exactas; grábalo como parte de la práctica.
+3. En el **Paso 3**, clona **directamente el repositorio público del profesor** en `SOR/Boveda_Marko/B0_Curso_Git`. No crees una plantilla en tu GitHub: este repositorio solo contiene los enunciados. El ejercicio da el comando y las comprobaciones exactas; grábalo como parte de la práctica.
 4. Abre **`Boveda_Marko` como bóveda en Obsidian**. Dentro, entra en `B0_Curso_Git/00_INDICE.md`, vuelve a `fase-1-fundamentos/EJ-01-01-00.md` y continúa por el Paso 4 desde **la copia local**. El Paso 3 del ejercicio explica cómo comprobar que abriste la carpeta correcta.
 5. Después sigue el [índice de la Fase 1](fase-1-fundamentos/README.md). Para los demás ejercicios leerás el material desde Obsidian; los PDF son un apoyo y GitHub sirve para obtener la copia y comprobar las entregas.
+
+---
+
+## **6 · CUANDO EL PROFESOR CORRIJA UN ENUNCIADO**
+
+La copia local del curso no se actualiza sola. **Haz esto solo cuando el profesor avise de un cambio**, antes de abrir el ejercicio corregido:
+
+1. En el Explorador de archivos, entra en `SOR/Boveda_Marko/B0_Curso_Git`. Abre **Git Bash aquí**. Esta es la carpeta de lectura, no `Bitacora` ni `Manuales`.
+2. Ejecuta `pwd`. **Sigue solo si** termina en `/SOR/Boveda_Marko/B0_Curso_Git`.
+3. Ejecuta `git status`. **Sigue solo si** dice `working tree clean` o «árbol de trabajo limpio». Si muestra archivos cambiados, **no los borres**: conserva tu trabajo y pide ayuda antes de actualizar.
+4. Ejecuta `git remote -v`. Las dos líneas de `origin` deben contener `sor-iesjj/bloque-0-curso-git`. Si aparece tu usuario de GitHub, estás en otra copia: **para**.
+5. Ejecuta `git pull --ff-only`. `pull` descarga los cambios del profesor; `--ff-only` evita crear una fusión inesperada. Si da error, **para y enseña el mensaje al profesor**.
+6. Ejecuta `git status` otra vez y abre en Obsidian el ejercicio corregido. Tus apuntes en `Bitacora` y tus pruebas en `Manuales` no cambian.
+
+> [!danger] 🛑 En `B0_Curso_Git` se lee y se actualiza; no se entrega
+> No hagas `git add`, `git commit` ni `git push` en esta carpeta. Las entregas salen de `Bitacora`, como indica cada ejercicio.
 
 ---
 
