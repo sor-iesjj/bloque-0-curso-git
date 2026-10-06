@@ -1,4 +1,4 @@
-# 📦 Qué tienes que entregar — LÉEME ANTES DEL PRIMER EJERCICIO
+r# 📦 Qué tienes que entregar — LÉEME ANTES DEL PRIMER EJERCICIO
 
 > **Módulo:** SOR — Sistemas Operativos en Red · **Bloque 0 · Curso de Git**
 >
