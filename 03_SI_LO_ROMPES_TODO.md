@@ -21,7 +21,7 @@ Si el espacio `SOR_Git_<contexto>` o la bóveda del curso aparecen dentro de `SO
 
 ## 2 · Crea un espacio neutral nuevo
 
-En Documentos local, crea `SOR_Git_Cole` o `SOR_Git_Casa` al mismo nivel que `SOR` si esta existe; nunca dentro de ella. Si Documentos se sincroniza con OneDrive, elige una carpeta local fuera de OneDrive. No selecciones ni abras `SOR` o `Boveda_SOR`. Dentro del espacio nuevo, abre Git Bash/Terminal y comprueba la ruta antes de crear nada:
+Crea `SOR_Git_Cole` o `SOR_Git_Casa` en una ubicación local fuera de OneDrive y fuera de todo el árbol `SOR`; no es necesario que esté al mismo nivel que `SOR`. No selecciones ni abras `SOR` o `Boveda_SOR`. El árbol hermano que muestran las prácticas es solo un ejemplo de ubicación. Dentro del espacio nuevo, abre Git Bash/Terminal y comprueba la ruta antes de crear nada:
 
 ```bash
 pwd -P

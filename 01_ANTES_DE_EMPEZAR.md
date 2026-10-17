@@ -4,7 +4,7 @@
 > **Cuándo se lee:** antes de iniciar cada recorrido.
 
 > [!danger] Cole y Casa se hacen dos veces, desde cero
-> Completa el recorrido **Cole** en el equipo del centro y el recorrido **Casa** en tu equipo de casa. No continúes trabajo entre equipos, no clones el repositorio de Cole para seguir en Casa y no reutilices la bóveda ni los repositorios personales. Cada recorrido tiene sus propios nombres y su propia entrega. En cada equipo crea un espacio neutral `SOR_Git_Cole` o `SOR_Git_Casa` en Documentos local, fuera del árbol `SOR` y de `Boveda_SOR`; no copies el trabajo de Cole.
+> Completa el recorrido **Cole** en el equipo del centro y el recorrido **Casa** en tu equipo de casa. No continúes trabajo entre equipos, no clones el repositorio de Cole para seguir en Casa y no reutilices la bóveda ni los repositorios personales. Cada recorrido tiene sus propios nombres y su propia entrega. En cada equipo crea un espacio neutral `SOR_Git_Cole` o `SOR_Git_Casa` en Documentos local, fuera del árbol `SOR` y de `Boveda_SOR`, para evitar que una orden ejecutada por despiste dañe tus apuntes reales; no copies el trabajo de Cole.
 
 ## Estructura que crearás en cada contexto
 
