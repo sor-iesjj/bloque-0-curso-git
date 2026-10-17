@@ -6,7 +6,7 @@ Marko prepara su entorno, crea sus repositorios de documentación, registra camb
 > Antes de empezar cada recorrido, comprueba Git en ese equipo con `EJ-01-01-01` y consulta tu identidad real con `EJ-01-01-02`. Esas comprobaciones se anotan en el `EJ-01-01-00` del contexto. No copies datos ficticios de Marko a la identidad global.
 
 > [!important] El primer tramo ya tiene dos ediciones autónomas
-> Completa todos los pasos de la carpeta Cole cuando trabajes en el centro y todos los de la carpeta Casa cuando trabajes en casa. Cada una crea su bóveda y remotos desde cero. El repositorio de enunciados del profesor es común y se clona solo para leer.
+> Completa todos los pasos de la carpeta Cole cuando trabajes en el centro y todos los de la carpeta Casa cuando trabajes en casa. Cada una crea su espacio (`SOR_Git_Cole` o `SOR_Git_Casa`) y su bóveda desde cero, fuera del árbol real `SOR` y de `Boveda_SOR`. El repositorio de enunciados del profesor es común y se clona solo para leer.
 > No grabes ni subas un clip por EJ: al terminar los 16 ejercicios, publica un único vídeo final en la playlist de Cole y otro en la de Casa. Sigue [Cierre de la Fase 1](Cierre_Fase_1.md) para el guion, los timestamps y los dos enlaces que van en cada tarea de Teams.
 
 ## EJ-01-01-00 a EJ-01-01-05

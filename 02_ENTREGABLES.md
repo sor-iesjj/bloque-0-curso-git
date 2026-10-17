@@ -1,6 +1,6 @@
 # Entregables del Curso de Git — Cole y Casa
 
-> **Lee esta página antes de cada recorrido.** Cole y Casa son dos trabajos independientes, con dos bóvedas, dos repositorios personales, dos tareas de Teams y dos playlists. Cada recorrido se repite completo desde cero.
+> **Lee esta página antes de cada recorrido.** Cole y Casa son dos trabajos independientes. Crea `SOR_Git_Cole` y `SOR_Git_Casa` fuera del árbol `SOR` y de `Boveda_SOR`; dentro va la bóveda de cada recorrido. Cada uno tiene sus repositorios, tarea y playlist, y se repite completo desde cero.
 
 > [!danger] Una entrega por contexto
 > Cole y Casa no comparten bóveda, remotos, playlist, vídeo ni tarea. Al terminar la Fase 1, entrega un único vídeo final de Cole y otro único vídeo final de Casa. No subas un vídeo independiente por ejercicio.
@@ -9,7 +9,7 @@
 
 | Elemento | Cole | Casa |
 |---|---|---|
-| Entradas de Bitácora y commits | `Boveda_Git_Cole/Bitacora/` → `bitacora-curso-git-cole` | `Boveda_Git_Casa/Bitacora/` → `bitacora-curso-git-casa` |
+| Entradas de Bitácora y commits | `SOR_Git_Cole/Boveda_Git_Cole/Bitacora/` → `bitacora-curso-git-cole` | `SOR_Git_Casa/Boveda_Git_Casa/Bitacora/` → `bitacora-curso-git-casa` |
 | Trabajo versionado de la fase | `Manuales/` → `manuales-boochan-cole` | `Manuales/` → `manuales-boochan-casa` |
 | Único vídeo de entrega de Fase 1 | Playlist `B0_Curso_Git_Cole` | Playlist `B0_Curso_Git_Casa` |
 | Tarea | Tarea de Teams de Cole | Tarea de Teams de Casa |
@@ -40,15 +40,21 @@ No pongas en la tarea enlaces del otro contexto ni del repositorio público del 
 
 ## Antes de subir una entrada
 
-Abre una terminal dentro de `Bitacora` de la bóveda correspondiente y confirma ruta y remoto:
+Abre una terminal dentro de `Bitacora` del espacio independiente correspondiente y verifica primero que la ruta física no tiene ningún ancestro llamado `SOR` o `Boveda_SOR`. Si aparece, no ejecutes nada y sigue la guía de recuperación.
 
 ```bash
-pwd
+pwd -P
+ruta=$(pwd -P | tr '[:upper:]' '[:lower:]')
+case "$ruta" in
+  */sor|*/sor/*|*/boveda_sor|*/boveda_sor/*) echo "ERROR: ubicación dentro de SOR; detente"; exit 1 ;;
+  */sor_git_cole/boveda_git_cole/bitacora|*/sor_git_casa/boveda_git_casa/bitacora) echo "Ruta fuera de SOR" ;;
+  *) echo "ERROR: ruta/contexto incorrectos; detente"; exit 1 ;;
+esac
 git remote -v
 git status
 ```
 
-Para Cole, `pwd` debe terminar en `Boveda_Git_Cole/Bitacora` y el remoto incluir `bitacora-curso-git-cole`. Para Casa, debe terminar en `Boveda_Git_Casa/Bitacora` y nombrar `bitacora-curso-git-casa`. Si algo difiere, detente y no ejecutes `git push`.
+Para Cole, `pwd` debe terminar en `SOR_Git_Cole/Boveda_Git_Cole/Bitacora` y el remoto incluir `bitacora-curso-git-cole`. Para Casa, debe terminar en `SOR_Git_Casa/Boveda_Git_Casa/Bitacora` y nombrar `bitacora-curso-git-casa`. Si algo difiere, detente y no ejecutes `git push`.
 
 Después, usa los comandos de entrega de la entrada y comprueba en GitHub que aparece en el repositorio correcto. Un `push` sin error no demuestra que hayas enviado al contexto que te corresponde.
 

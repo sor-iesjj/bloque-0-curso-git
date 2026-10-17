@@ -1,42 +1,8 @@
-# FASE 3 — Colaboración con GitHub
+# Fase 3 — Colaboración con GitHub
 
-**Duración:** 3 h presenciales
+> [!danger] No disponible para el recorrido actual
+> Esta fase conserva guías anteriores a la separación de los espacios de alumno. No sigas sus enlaces ni ejecutes esos ejercicios. Las guías aún no tienen recorridos Cole y Casa con espacios `SOR_Git_Cole` y `SOR_Git_Casa` fuera del árbol real `SOR` y de `Boveda_SOR`.
 
-Marko trabaja en equipo: Pull Requests, code review, fork, Issues, protección de ramas. Lucía revisa cada PR antes del merge.
+Solo está disponible la [Fase 1 — Fundamentos](../fase-1-fundamentos/README.md). La siguiente fase se habilitará cuando sus instrucciones estén adaptadas y comprobadas para ambos contextos.
 
----
-
-## Índice de ejercicios
-
-### 🟢 N1 — Mínimo (4 ejercicios)
-
-- [`EJ-03-01-01`](EJ-03-01-01.md) — Marko da acceso de colaborador a Carlos
-- [`EJ-03-01-02`](EJ-03-01-02.md) — Marko abre su primer Pull Request
-- [`EJ-03-01-03`](EJ-03-01-03.md) — Marko revisa el PR de Carlos
-- [`EJ-03-01-04`](EJ-03-01-04.md) — Marko mergea su PR aprobado
-
-### 🟡 N2 — Notable (5 ejercicios)
-
-- [`EJ-03-02-01`](EJ-03-02-01.md) — Marko hace un fork del repo de Lucía
-- [`EJ-03-02-02`](EJ-03-02-02.md) — Marko sincroniza su fork con el original
-- [`EJ-03-02-03`](EJ-03-02-03.md) — Marko crea un Issue en GitHub
-- [`EJ-03-02-04`](EJ-03-02-04.md) — Marko corrige un Issue desde una rama y lo cierra desde un PR
-- [`EJ-03-02-05`](EJ-03-02-05.md) — Marko protege la rama `main`
-
-### 🔴 N3 — Sobresaliente (5 ejercicios)
-
-- [`EJ-03-03-01`](EJ-03-03-01.md) — Marko mergea un PR con squash
-- [`EJ-03-03-02`](EJ-03-03-02.md) — Marko mergea un PR con rebase
-- [`EJ-03-03-03`](EJ-03-03-03.md) — Marko usa CODEOWNERS
-- [`EJ-03-03-04`](EJ-03-03-04.md) — Marko usa Draft Pull Requests
-- [`EJ-03-03-05`](EJ-03-03-05.md) — Marko crea una plantilla de Pull Request
-
----
-
-### 🏁 Cierre
-
-- [`Cierre_Fase_3`](Cierre_Fase_3.md) — repaso, preguntas y verificación de la fase
-
----
-
-[← Volver al índice del curso](../README.md)
+[← Volver al índice del curso](../00_INDICE.md)

@@ -11,11 +11,11 @@ La historia de Boochan Networks y Marko ofrece un caso práctico que se recorre 
 ## 2 · Dos recorridos obligatorios
 
 > [!danger] Cole y Casa son trabajos independientes
-> Repite cada práctica de principio a fin en ambos contextos. La bóveda, la bitácora, el repositorio de ejercicios, la playlist y la tarea deben corresponder al mismo contexto. No se transporta el trabajo de Cole a Casa ni se reutilizan sus remotos.
+> Repite cada práctica de principio a fin en ambos contextos. Los espacios `SOR_Git_Cole` y `SOR_Git_Casa` se crean fuera del árbol real `SOR` y de `Boveda_SOR`. La bóveda, la bitácora, el repositorio de ejercicios, la playlist y la tarea deben corresponder al mismo contexto. No se transporta el trabajo de Cole a Casa ni se reutilizan sus remotos.
 
 | Elemento | Cole | Casa |
 |---|---|---|
-| Bóveda | `Boveda_Git_Cole` | `Boveda_Git_Casa` |
+| Espacio independiente y bóveda | `SOR_Git_Cole/Boveda_Git_Cole` | `SOR_Git_Casa/Boveda_Git_Casa` |
 | Bitácora GitHub | `bitacora-curso-git-cole` | `bitacora-curso-git-casa` |
 | Manuales GitHub | `manuales-boochan-cole` | `manuales-boochan-casa` |
 | Vídeo final de Fase 1 | Un único vídeo en `B0_Curso_Git_Cole` | Un único vídeo en `B0_Curso_Git_Casa` |
@@ -33,13 +33,13 @@ Lee [Antes de empezar](01_ANTES_DE_EMPEZAR.md) y [Entregables](02_ENTREGABLES.md
 | Fase | Qué se aprende | Estado |
 |---|---|---|
 | [1 · Fundamentos](fase-1-fundamentos/README.md) | `init`, commits, historial y primer `push` | Cole/Casa disponibles para los 16 ejercicios desde `EJ-01-01-00` hasta `EJ-01-03-04` |
-| [2 · Ramificación](fase-2-ramificacion/README.md) | Ramas y fusiones | Pendiente de duplicación |
-| [3 · Colaboración](fase-3-colaboracion/README.md) | Pull requests y conflictos | Pendiente de duplicación |
-| [4 · Workflows avanzados](fase-4-workflows/README.md) | Recuperación y flujos profesionales | Pendiente de duplicación |
-| [5 · Integración](fase-5-integracion/README.md) | Automatización e integración | Pendiente de duplicación |
+| 2 · Ramificación | Ramas y fusiones | **No disponible**: conserva instrucciones anteriores a los espacios independientes |
+| 3 · Colaboración | Pull requests y conflictos | **No disponible**: conserva instrucciones anteriores a los espacios independientes |
+| 4 · Workflows avanzados | Recuperación y flujos profesionales | **No disponible**: conserva instrucciones anteriores a los espacios independientes |
+| 5 · Integración | Automatización e integración | **No disponible**: conserva instrucciones anteriores a los espacios independientes |
 
 > [!warning] Alcance disponible
-> La Fase 1 tiene ediciones Cole y Casa para todos sus ejercicios. Las fases 2–5 aún conservan guías comunes: no las ejecutes como una entrega conjunta hasta que tengan sus ediciones Cole/Casa.
+> Solo la Fase 1 está disponible en recorridos Cole/Casa. Las fases 2–5 no se deben ejecutar: sus guías existentes presuponen rutas anteriores y no tienen laboratorios separados fuera de SOR.
 
 ## 5 · Qué entregas
 

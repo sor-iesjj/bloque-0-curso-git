@@ -13,7 +13,7 @@ Título: Cierre de la Fase 1 — Fundamentos de Git
 
 | Comprobación | Cole | Casa |
 |---|---|---|
-| Bóveda contenedora | `Boveda_Git_Cole` | `Boveda_Git_Casa` |
+| Espacio y bóveda contenedora | `SOR_Git_Cole/Boveda_Git_Cole` | `SOR_Git_Casa/Boveda_Git_Casa` |
 | Bitácora remota | `bitacora-curso-git-cole` | `bitacora-curso-git-casa` |
 | Repositorio de trabajo y entrega | `manuales-boochan-cole` | `manuales-boochan-casa` |
 | Playlist propia | `B0_Curso_Git_Cole` | `B0_Curso_Git_Casa` |
@@ -48,4 +48,4 @@ La playlist sirve para abrir el vídeo; no añadas un tercer enlace directo al v
 4. ¿Qué correo de autoría configuraste en el repositorio personal y por qué la configuración global se mantuvo como referencia?
 5. ¿Qué repositorio es común y de solo lectura?
 
-La Fase 1 queda cerrada para cada contexto cuando están completos sus 16 ejercicios, su evidencia intermedia está guardada en los repositorios personales y se ha publicado el vídeo final en su playlist. La fase siguiente es Ramificación; mantén cada modalidad en su entorno y repositorios propios.
+La Fase 1 queda cerrada para cada contexto cuando están completos sus 16 ejercicios, su evidencia intermedia está guardada en los repositorios personales y se ha publicado el vídeo final en su playlist. La Fase 2 aún no está disponible: sus guías conservan la ruta anterior bajo SOR. Detén el recorrido aquí hasta que se publique su edición Cole/Casa en espacios independientes.
