@@ -1,133 +1,31 @@
-# Curso de Git y GitHub — 2.º SMR (práctica independiente)
+# Curso de Git y GitHub — 2.º SMR
 
 > **Módulo:** SOR — Sistemas Operativos en Red · **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)
-> **Autor y propietario:** © 2026 Pedro Navarro Miralles. **Licencia:** [CC BY-NC-SA 4.0](LICENSE) — atribución obligatoria, uso no comercial.
 
-## Qué es este curso (y qué NO es)
+Curso práctico de Git basado en la simulación de Marko, técnico junior de Boochan Networks. El alumno aprende a documentar trabajo, registrar cambios y sincronizarlos con GitHub.
 
-Es un **curso de Git autocontenido**, en forma de **simulación**: sigues a **Marko**, un técnico junior ficticio, y aprendes Git **desde cero**. Sirve para **entender la filosofía de trabajo** que usaremos todo el año (documentar en Obsidian, versionar con Git, sincronizar con GitHub).
+> [!danger] Dos recorridos obligatorios e independientes
+> Cada ejercicio se completa en **Cole y en Casa**. Son dos ejecuciones completas: bóvedas `Boveda_Git_Cole` y `Boveda_Git_Casa`, repositorios personales con sufijos `-cole` y `-casa`, playlists distintas y tareas de Teams distintas. Para la Fase 1 se publica un único vídeo final por contexto, tras completar sus 16 ejercicios; no se sube un vídeo por ejercicio. La versión de Casa no presupone que el alumno haya terminado Cole ni permite clonar sus repositorios.
 
-> [!important] Es INDEPENDIENTE de tu trabajo real
-> Este curso vive **entero** en **la bóveda de Marko**, separada de tu **bóveda SOR** real (la de los prerrequisitos, con la que trabajas de verdad todo el año). El material, tus apuntes y los ejercicios: los tres van en `Boveda_Marko`. La forma de trabajar es **la misma** que en tu bóveda real, pero **no se mezclan**: mientras dure este curso, **en `Boveda_SOR` no se ejecuta ni un comando**.
+## Repositorios y carpetas
 
----
+Dentro de cada bóveda hay una copia de lectura del repositorio público del profesor (`sor-iesjj/bloque-0-curso-git`), una `Bitacora` y una carpeta `Manuales`. Las copias locales del material comparten la fuente pública, pero los repositorios personales de Bitacora y Manuales son distintos por contexto. Los repositorios comunes de apoyo del curso siguen siendo compartidos y no son entregas.
 
-## El escenario y los personajes
+La bóveda contenedora no se versiona; cada repositorio interior conserva su propio historial. `Boveda_SOR` sigue fuera del curso de Git.
 
-- **Marko** — 19 años, recién titulado en SMR. Acaba de entrar como técnico junior en **Boochan Networks S.L.** Le toca documentar su trabajo desde cero: la empresa nunca tuvo manuales escritos.
-- **Boochan Networks S.L.** — PYME ficticia de 12 empleados que da soporte de infraestructura a otras empresas. Tiene un servidor (Ubuntu Server con Active Directory, VPN, almacenamiento…).
-- **Carlos** — técnico *senior*. Lo sabe todo, pero **nunca ha documentado nada** (y a veces edita los mismos archivos sin avisar).
-- **Lucía** — **responsable de IT**. Es quien pide a Marko que documente todo con Git+GitHub y quien revisa su trabajo.
+## Antes de empezar
 
-Cada ejercicio cuenta una situación real de Marko en la empresa.
+Lee [Antes de empezar](01_ANTES_DE_EMPEZAR.md) y [Entregables](02_ENTREGABLES.md). La Fase 1 está disponible en dos ediciones autónomas: `EJ-01-01-00` a `EJ-01-01-05`, `EJ-01-02-01` a `EJ-01-02-06` y `EJ-01-03-01` a `EJ-01-03-04`.
 
----
+## Fases
 
-## La bóveda de Marko (estructura del curso)
-
-Marko organiza su trabajo con el **mismo patrón** que usarás tú en real, pero en su propia bóveda:
-
-```
-📁 SOR/                          ← la carpeta de la Bloque 0 · Fase 0.1
-│
-├── Boveda_SOR/                  ← 🔒 TU trabajo real. En este curso NO SE TOCA
-│
-└── Boveda_Marko/                ← 🎭 se abre en Obsidian. NUNCA se hace git init aquí
-    ├── B0_Curso_Git/                ← 📖 este material (repositorio `bloque-0-curso-git`)
-    ├── Bitacora/                    ← ✍️ tus apuntes y entregas (repositorio `bitacora-curso-git`)
-    └── Manuales/                    ← 🛠️ los ejercicios (repositorio `manuales-boochan`)
-```
-
-> [!danger] 🛑 `Boveda_Marko` va FUERA de `Boveda_SOR`, como hermana
-> Las dos dentro de tu carpeta `SOR`, una al lado de la otra. Si la metes dentro de un repositorio tendrías **Git dentro de Git**; si la metes dentro de tu bóveda, **Obsidian dentro de Obsidian**. Las dos cosas dan problemas.
->
-> El detalle y el porqué, en **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)**.
-
-> [!danger] La regla de oro (igual que en tu trabajo real)
-> `Boveda_Marko/` es solo el contenedor: **no se versiona**. Lo que son repositorios son las **carpetas de dentro** (`B0_Curso_Git/`, `Bitacora/`, `Manuales/`), cada una independiente. Nunca `git init` sobre la bóveda entera, o tendrías "git dentro de git".
-
-> [!tip] 🧯 Y si lo destrozas, se repone
-> Para eso es una bóveda aparte: se borra entera y se vuelve a bajar de GitHub. El procedimiento, en **[🧯 Si lo rompes todo](03_SI_LO_ROMPES_TODO.md)**.
-
----
-
-## Autenticación con GitHub: dos caminos
-
-Aprenderás **las dos formas** de conectar con GitHub. Un repositorio tiene **una identidad** pero **dos direcciones** que llevan al mismo sitio, así que puedes usar la que prefieras:
-
-- 🔑 **SSH** *(recomendada)* — `git@github.com:usuario/repo.git`. Se configura una vez con una clave, no caduca y no pide contraseña.
-- 🔐 **HTTPS + token** — `https://github.com/usuario/repo.git`. Usa un *Personal Access Token*; más sencillo de entender, pero el token puede caducar.
-
-En cada ejercicio de conexión verás **las dos opciones** en bloques separados.
-
----
-
-## Terminal: dos sintaxis
-
-Los comandos `git` son iguales en todas partes. Cuando cambie algo (crear carpetas/archivos, rutas), verás dos bloques:
-
-- 🐧 **Git Bash / Linux** — comandos tipo Unix (`touch`, `~/…`). Git Bash viene con Git para Windows.
-- 🪟 **PowerShell** — comandos nativos de Windows (`New-Item`, `$env:USERPROFILE`).
-
-> [!tip] Los `.md` también se crean desde Obsidian
-> Crear archivos por terminal es parte del aprendizaje, pero recuerda: los ficheros `.md` (notas, manuales) también puedes crearlos **directamente en Obsidian** (clic derecho → *New note*). Usa lo que te resulte más cómodo.
-
----
-
-## 📹 Grabación y entrega (LÉEME — aplica a TODAS las prácticas)
-
-Igual que en la Fase 0, **cada práctica se graba entera con OBS**, de principio a fin. No es un repaso al final: se ve **cómo la haces tú**. Cada ejercicio trae su propia caja **📹 Grabación** y un **Paso 0** para prepararte y arrancar la grabación.
-
-> [!important] Las 5 reglas de grabación
-> 1. **Grabación completa con OBS**, sin cortes, hablando lo que haces.
-> 2. **Preséntate al empezar** y **muestra tu identidad** en pantalla (Teams, correo `@alu.edu.gva.es` o, cuando lo tengas, tu perfil de GitHub). Di qué vas a hacer.
-> 3. **Timestamps SIEMPRE** en la descripción: `00:00 Presentación` y **uno por cada paso** (`mm:ss`).
-> 4. **Nombre del vídeo:** `B0.G.f.n.e · <título>` — donde `f.n.e` = **fase . nivel . ejercicio**. Ejemplo: `B0.G.1.1.1 · Marko instala Git`.
-> 5. **Súbelo a tu playlist del curso** como **"No listado"**.
-
-> [!info] La `G` del principio
-> El curso de Shell usa `B0.S.1.1.1`. Este usa **`B0.G.1.1.1`** — `G` de *Git* — para que un vídeo suelto se sepa de qué curso sale sin abrirlo. Son dos cursos distintos del mismo Bloque 0 y sus vídeos conviven en el mismo canal.
-
-> [!info] 🎬 UNA sola playlist para todo el curso
-> Se llama **`B0_Curso_Git`** — igual que la carpeta del material. La creas una vez, al principio, y ahí van **todos** los vídeos del curso.
->
-> **No hagas una playlist por fase.** El vídeo ya lleva la fase en su nombre (`B0.G.1.2.1`), así que dentro de la playlist salen ordenados solos.
-
-> [!warning] Entrega ÚNICA (no se duplica casa/centro)
-> A diferencia de la Fase 0 (prerequisitos), aquí **no** se entrega dos veces. Se graba y se sube el vídeo **una sola vez**: el trabajo va a un **repositorio**, y duplicar casa/centro generaría conflictos. El criterio de almacenaje digital es el mismo de siempre.
-
----
-
-## Qué hay que entregar, además del vídeo
-
-**Una entrada por ejercicio en tu bitácora**, en `Boveda_Marko/Bitacora/`, con el nombre que te da el propio ejercicio en su **Paso 0** (`git-1.2.1-amplia-el-manual-y-registra.md`).
-
-Lleva un apartado que no tienen los demás cursos: **los comandos que has usado, con una línea diciendo qué hace cada uno.** Es tu chuleta de Git, escrita por ti, y la vas a usar todo el año.
-
-> [!warning] ⚠️ Lo que haces en `Manuales` NO se entrega
-> Eso **es** el ejercicio, y queda demostrado en el vídeo. Lo que se corrige es **tu entrada**, en tu repositorio `bitacora-curso-git`.
-
-La estructura obligatoria, la plantilla copiable y cómo se sube: **[📦 Entregables](02_ENTREGABLES.md)**.
-
----
-
-## Índice de fases
-
-> [!danger] 🛑 EMPIEZA POR AQUÍ: **[🔀 Índice general del curso](00_INDICE.md)**
-> Ahí tienes el mapa completo: las cinco fases, cómo funciona cada ejercicio y **los tres pasos previos que hay que dar antes de la Fase 1**.
->
-> Y esos tres pasos, por orden:
-> 1. **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)** — dónde va cada cosa y cómo descargarás el curso completo. **Aquí no se crea nada:** el primer ejercicio monta `Boveda_Marko`, clona el material y lo abre en Obsidian.
-> 2. **[📦 Entregables](02_ENTREGABLES.md)** — qué se entrega, cómo se llama y cómo se sube.
-> 3. Y ya sí, la [Fase 1](fase-1-fundamentos/README.md).
-
-| Fase | Carpeta | Qué aprende Marko |
+| Fase | Contenido | Estado de duplicación |
 |---|---|---|
-| **1** | [fase-1-fundamentos](fase-1-fundamentos/README.md) | Instalar Git, identidad, `init`, commits, subir a GitHub |
-| **2** | [fase-2-ramificacion](fase-2-ramificacion/README.md) | Ramas (`branch`, `merge`) — clave para trabajar en **binomio** |
-| **3** | [fase-3-colaboracion](fase-3-colaboracion/README.md) | Colaborar con Carlos/Lucía: *pull requests*, conflictos |
-| **4** | [fase-4-workflows](fase-4-workflows/README.md) | Flujos de trabajo profesionales |
-| **5** | [fase-5-integracion](fase-5-integracion/README.md) | Integración y cierre |
+| [Fase 1 — Fundamentos](fase-1-fundamentos/README.md) | Instalación/comprobaciones, repositorios, commits y publicación | `EJ-01-01-00` a `-05`, `EJ-01-02-01` a `-06` y `EJ-01-03-01` a `-04`: Cole y Casa disponibles |
+| [Fase 2 — Ramificación](fase-2-ramificacion/README.md) | Ramas y fusiones | Pendiente de edición Cole/Casa |
+| [Fase 3 — Colaboración](fase-3-colaboracion/README.md) | Pull requests y conflictos | Pendiente de edición Cole/Casa |
+| [Fase 4 — Workflows](fase-4-workflows/README.md) | Flujos de trabajo profesionales | Pendiente de edición Cole/Casa |
+| [Fase 5 — Integración](fase-5-integracion/README.md) | Integración y credenciales | Pendiente de edición Cole/Casa |
 
-> [!note] No todo es obligatorio para todos
-> El **núcleo** (Fase 1: init, commit, push, pull, clone) lo hará todo el mundo. Las **ramas y colaboración** (Fases 2-3) cobran sentido sobre todo cuando trabajéis en **binomio** compartiendo un repositorio. El resto es material de ampliación. El profesor indicará qué parte toca en cada momento.
+> [!warning] No uses todavía los ejercicios comunes de un solo recorrido
+> La Fase 1 tiene guías separadas para los 16 ejercicios. Las fases 2–5 aún conservan guías comunes: no las ejecutes como una entrega conjunta hasta que tengan sus ediciones Cole/Casa.

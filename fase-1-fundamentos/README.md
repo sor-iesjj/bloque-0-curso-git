@@ -1,62 +1,51 @@
-# FASE 1 — Git Fundamentals
+# Fase 1 — Fundamentos de Git
 
-**Duración:** 4 h presenciales
+Marko prepara su entorno, crea sus repositorios de documentación, registra cambios y publica el trabajo. El alumno repite la experiencia completa en Cole y en Casa, con entornos separados.
 
-Marko arranca: monta su sitio de trabajo, comprueba su equipo, crea su repositorio de manuales, hace commits, sube a GitHub. De cero a tener su trabajo en la nube.
+> [!danger] Requisitos y controles en cada ordenador
+> Antes de empezar cada recorrido, comprueba Git en ese equipo con `EJ-01-01-01` y consulta tu identidad real con `EJ-01-01-02`. Esas comprobaciones se anotan en el `EJ-01-01-00` del contexto. No copies datos ficticios de Marko a la identidad global.
 
-> [!danger] 🛑 Antes de empezar: los PRERREQUISITOS tienen que estar TERMINADOS
-> Este curso arranca **cuando has cerrado el bloque de prerrequisitos entero** (Fases 0.1 a 0.7.2). No es opcional y no es un consejo: los ejercicios de aquí dan por hecho que ya tienes Git instalado, tu clave SSH puesta, tu repositorio de apuntes funcionando y varios commits hechos.
->
-> **Y como consecuencia, dos ejercicios del Nivel 1 ya los has hecho.** Instalar Git y configurar tu identidad (**Bloque 0 · Fase 0.2.1**) son los ejercicios `EJ-01-01-01` y `EJ-01-01-02`. **Esos dos no se repiten.**
->
-> **Los otros tres sí se hacen, y no son opcionales.** `EJ-01-01-03`, `-04` y `-05` crean el repositorio **`Manuales`** dentro de la bóveda de Marko, le hacen su primer commit y lo suben a GitHub. Te sonarán a la **Bloque 0 · Fase 0.3** —es el mismo gesto—, pero **sin ellos no existe el repositorio sobre el que trabaja todo el resto del curso**.
+> [!important] El primer tramo ya tiene dos ediciones autónomas
+> Completa todos los pasos de la carpeta Cole cuando trabajes en el centro y todos los de la carpeta Casa cuando trabajes en casa. Cada una crea su bóveda y remotos desde cero. El repositorio de enunciados del profesor es común y se clona solo para leer.
+> No grabes ni subas un clip por EJ: al terminar los 16 ejercicios, publica un único vídeo final en la playlist de Cole y otro en la de Casa. Sigue [Cierre de la Fase 1](Cierre_Fase_1.md) para el guion, los timestamps y los dos enlaces que van en cada tarea de Teams.
 
-> [!danger] 🛑 Empieza por el `EJ-01-01-00`: ahí se monta todo
-> El primer ejercicio **crea** la bóveda de Marko dentro de tu carpeta `SOR`, clona el material y monta tu bitácora con su primer commit, paso a paso y con la ruta exacta. **No hay que traer ninguna carpeta hecha.**
->
-> Y todo el curso ocurre en `Boveda_Marko`: ni un comando dentro de `Boveda_SOR`.
+## EJ-01-01-00 a EJ-01-01-05
 
----
+| Código | Cole | Casa | Propósito |
+|---|---|---|---|
+| [`EJ-01-01-01`](EJ-01-01-01.md) | [Comprobar Git](Cole/EJ-01-01-01.md) | [Comprobar Git](Casa/EJ-01-01-01.md) | Verificar instalación en el equipo de este contexto |
+| [`EJ-01-01-02`](EJ-01-01-02.md) | [Comprobar identidad](Cole/EJ-01-01-02.md) | [Comprobar identidad](Casa/EJ-01-01-02.md) | Consultar la identidad sin cambiarla |
+| [`EJ-01-01-00`](EJ-01-01-00.md) | [Montar entorno Cole](Cole/EJ-01-01-00.md) | [Montar entorno Casa](Casa/EJ-01-01-00.md) | Crear bóveda y bitácora desde cero |
+| [`EJ-01-01-03`](EJ-01-01-03.md) | [Crear Manuales Cole](Cole/EJ-01-01-03.md) | [Crear Manuales Casa](Casa/EJ-01-01-03.md) | Inicializar el repositorio local de ejercicios |
+| [`EJ-01-01-04`](EJ-01-01-04.md) | [Primer commit Cole](Cole/EJ-01-01-04.md) | [Primer commit Casa](Casa/EJ-01-01-04.md) | Registrar el primer estado de trabajo |
+| [`EJ-01-01-05`](EJ-01-01-05.md) | [Publicar Manuales Cole](Cole/EJ-01-01-05.md) | [Publicar Manuales Casa](Casa/EJ-01-01-05.md) | Crear el remoto del contexto y hacer `push` |
 
-## Índice de ejercicios
+Mantén el orden indicado en el índice general: controles `-01/-02`, preparación `-00`, trabajo local `-03/-04` y publicación `-05`. Cada guía dice sus requisitos antes de cualquier comando que dependa de ellos.
 
-### 🔵 N0 — Arranque (1 ejercicio) · **EMPIEZA AQUÍ**
+## EJ-01-02-01 a EJ-01-02-06 — disponibles en dos recorridos
 
-- [`EJ-01-01-00`](EJ-01-01-00.md) — **Marko monta su sitio de trabajo y comprueba su equipo**
+| Código | Cole | Casa | Propósito |
+|---|---|---|---|
+| [`EJ-01-02-01`](EJ-01-02-01.md) | [Ampliar manual](Cole/EJ-01-02-01.md) | [Ampliar manual](Casa/EJ-01-02-01.md) | Revisar, preparar, confirmar y subir un cambio |
+| [`EJ-01-02-02`](EJ-01-02-02.md) | [Deshacer cambio](Cole/EJ-01-02-02.md) | [Deshacer cambio](Casa/EJ-01-02-02.md) | Descartar un cambio local no preparado |
+| [`EJ-01-02-03`](EJ-01-02-03.md) | [Crear `.gitignore`](Cole/EJ-01-02-03.md) | [Crear `.gitignore`](Casa/EJ-01-02-03.md) | Excluir archivos de prueba y basura |
+| [`EJ-01-02-04`](EJ-01-02-04.md) | [Navegar el historial](Cole/EJ-01-02-04.md) | [Navegar el historial](Casa/EJ-01-02-04.md) | Consultar commits con `git log` |
+| [`EJ-01-02-05`](EJ-01-02-05.md) | [Clonar repositorio de consulta](Cole/EJ-01-02-05.md) | [Clonar repositorio de consulta](Casa/EJ-01-02-05.md) | Clonar un repositorio común de solo lectura |
+| [`EJ-01-02-06`](EJ-01-02-06.md) | [Traer cambios](Cole/EJ-01-02-06.md) | [Traer cambios](Casa/EJ-01-02-06.md) | Recibir en local un cambio remoto con `git pull` |
 
-### ⚪ N1 — Repaso (2 ejercicios) · *no se hacen ni se entregan: ya están hechos en prerrequisitos*
+Completa cada guía de forma independiente en su contexto. La edición Casa no reutiliza bóveda, archivos ni remotos Cole.
 
-- [`EJ-01-01-01`](EJ-01-01-01.md) — Marko instala Git por primera vez
-- [`EJ-01-01-02`](EJ-01-01-02.md) — Marko se identifica ante Git
+## EJ-01-03-01 a EJ-01-03-04 — ediciones Cole y Casa
 
-### 🟢 N1 — Mínimo (3 ejercicios) · **OBLIGATORIOS: montan el repositorio `Manuales`**
+| Código | Cole | Casa | Propósito |
+|---|---|---|---|
+| [`EJ-01-03-01`](EJ-01-03-01.md) | [Enmendar commit](Cole/EJ-01-03-01.md) | [Enmendar commit](Casa/EJ-01-03-01.md) | Corregir el último commit local antes del push |
+| [`EJ-01-03-02`](EJ-01-03-02.md) | [Crear alias](Cole/EJ-01-03-02.md) | [Crear alias](Casa/EJ-01-03-02.md) | Configurar atajos personales de Git |
+| [`EJ-01-03-03`](EJ-01-03-03.md) | [Mantenimiento](Cole/EJ-01-03-03.md) | [Mantenimiento](Casa/EJ-01-03-03.md) | Revisar integridad y ejecutar `git gc` |
+| [`EJ-01-03-04`](EJ-01-03-04.md) | [Firmar commits](Cole/EJ-01-03-04.md) | [Firmar commits](Casa/EJ-01-03-04.md) | Firmar commits SSH en el repo local del contexto |
 
-- [`EJ-01-01-03`](EJ-01-01-03.md) — Marko crea su primer repositorio de manuales
-- [`EJ-01-01-04`](EJ-01-01-04.md) — Marko hace su primer commit (manual de Ubuntu Server)
-- [`EJ-01-01-05`](EJ-01-01-05.md) — Marko publica su repositorio de manuales en GitHub
-
-### 🟡 N2 — Notable (6 ejercicios)
-
-- [`EJ-01-02-01`](EJ-01-02-01.md) — Marko amplía el manual y registra el cambio
-- [`EJ-01-02-02`](EJ-01-02-02.md) — Marko se equivoca y deshace el cambio antes de commitear
-- [`EJ-01-02-03`](EJ-01-02-03.md) — Marko crea su .gitignore (no subir basura) · 🔁 *repaso de la Fase 0.3.b, + `git rm --cached`*
-- [`EJ-01-02-04`](EJ-01-02-04.md) — Marko navega su histórico (`git log`)
-- [`EJ-01-02-05`](EJ-01-02-05.md) — Marko clona el repo de Carlos para consultarlo · 🔁 *repaso de la Bloque 0 · Fase 0.4.a, ahora sobre un repo ajeno*
-- [`EJ-01-02-06`](EJ-01-02-06.md) — Marko sincroniza cambios remotos (`git pull`)
-
-### 🔴 N3 — Sobresaliente (4 ejercicios)
-
-- [`EJ-01-03-01`](EJ-01-03-01.md) — Marko enmienda su último commit
-- [`EJ-01-03-02`](EJ-01-03-02.md) — Marko crea alias para no escribir tanto
-- [`EJ-01-03-03`](EJ-01-03-03.md) — Marko verifica integridad con `git fsck` y limpia con `git gc`
-- [`EJ-01-03-04`](EJ-01-03-04.md) — Marko firma sus commits para garantizar autoría
+Cada guía N3 requiere los tramos anteriores del mismo entorno. Sus entradas, archivos y commits son evidencias intermedias del recorrido. Cole y Casa no comparten bóveda, archivos ni remotos; cada uno entrega un único vídeo final al cerrar la fase.
 
 ---
 
-### 🏁 Cierre
-
-- [`Cierre_Fase_1`](Cierre_Fase_1.md) — repaso, preguntas y verificación **antes de pasar a la Fase 2**
-
----
-
-[← Volver al índice del curso](../README.md)
+[← Volver al índice del curso](../00_INDICE.md)

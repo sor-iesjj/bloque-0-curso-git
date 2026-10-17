@@ -1,74 +1,51 @@
 ---
 Tipo: cierre-de-fase
 Fase: 01
-Título: Cierre de la Fase 1 — antes de pasar a la ramificación
+Título: Cierre de la Fase 1 — Fundamentos de Git
 ---
 
-## 🏁 Cierre de la Fase 1 — Fundamentos de Git
+# Cierre de la Fase 1 — Fundamentos de Git
 
-> [!info] Para qué es esta página
-> No es un ejercicio nuevo: es una **parada para consolidar**. Antes de pasar a la Fase 2 (ramificación), asegúrate de que de verdad has entendido lo de aquí. Si algo de esto no lo tienes claro, **para y repásalo** (o pregúntame): la Fase 2 da por sabido todo lo siguiente.
+> [!success] Una entrega audiovisual por recorrido
+> Completa los 16 ejercicios del contexto que estás cerrando. Cole y Casa son trabajos independientes: cada uno tiene su bóveda, repositorios personales, playlist y tarea de Teams. No traslades archivos, remotos ni vídeos entre contextos.
 
----
+## 1 · Comprueba el recorrido
 
-## 🎓 Lo que has aprendido en la Fase 1
+| Comprobación | Cole | Casa |
+|---|---|---|
+| Bóveda contenedora | `Boveda_Git_Cole` | `Boveda_Git_Casa` |
+| Bitácora remota | `bitacora-curso-git-cole` | `bitacora-curso-git-casa` |
+| Repositorio de trabajo y entrega | `manuales-boochan-cole` | `manuales-boochan-casa` |
+| Playlist propia | `B0_Curso_Git_Cole` | `B0_Curso_Git_Casa` |
 
-- **Qué es Git** y en qué se diferencia de una nube o una copia de seguridad.
-- A **instalar** Git y a moverte por la terminal (PowerShell o Git Bash).
-- A **identificarte** ante Git (`user.name`, `user.email`).
-- La **estructura de trabajo**: una bóveda contenedor (sin versionar) con repositorios dentro (`Manuales/`, `Bitacora/`).
-- El **ciclo básico**: `git init` → editar → `git add` → `git commit` → `git push`.
-- A **ver el estado** (`git status`), **las diferencias** (`git diff`) y el **historial** (`git log`).
-- A **deshacer** antes del commit (`git restore`) y a **enmendar** el último commit (`--amend`).
-- A **proteger secretos** con `.gitignore`.
-- A **traer cambios** del remoto (`git pull`) y a **clonar** repos ajenos (`git clone`).
-- Las **dos vías de autenticación** (SSH y HTTPS + token).
-- Extras de técnico: **alias**, **mantenimiento** (`fsck`/`gc`) y **firma** de commits.
+Los controles `EJ-01-01-01` y `EJ-01-01-02` se registran en la entrada del `EJ-01-01-00`; no generan entregas separadas. Las entradas de Bitácora, archivos, capturas y commits son evidencias intermedias del trabajo, no vídeos por ejercicio.
 
----
+## 2 · Prepara el único vídeo final
 
-## ❓ Preguntas de repaso (no pasamos hasta entender esto)
+Cuando hayas completado el recorrido, publica un solo vídeo final en la playlist correspondiente. Usa el título de tu contexto:
 
-> [!question] Responde en tu bitácora antes de seguir
-> 1. Explica las **tres zonas** de Git y qué comando mueve un archivo entre ellas.
-> 2. ¿Por qué **nunca** se hace `git init` sobre la bóveda contenedor?
-> 3. ¿Qué diferencia hay entre `git add` y `git commit`?
-> 4. ¿Cuál es la **regla de oro** al trabajar en el centro y en casa?
-> 5. ¿Qué NUNCA debe subirse a GitHub, y con qué se evita?
-> 6. Nombra las dos formas de autenticarse con GitHub y una diferencia entre ellas.
+- Cole: `B0.G.1.F1 · COLE · Fase 1 Fundamentos — recorrido completo`
+- Casa: `B0.G.1.F1 · CASA · Fase 1 Fundamentos — recorrido completo`
 
----
+Presenta brevemente quién eres y qué contexto estás mostrando. Después recorre los resultados de los 16 ejercicios, en orden, con capítulos o marcas de tiempo: `EJ-01-01-00` a `EJ-01-01-05`, `EJ-01-02-01` a `EJ-01-02-06` y `EJ-01-03-01` a `EJ-01-03-04`. Para cada código, enseña el producto, estado o historial que demuestra el resultado y explica en una frase qué comprueba. No es necesario volver a escribir todos los comandos. En el tramo `EJ-01-01-00`, muestra también que completaste los controles 01 y 02.
 
-## ✅ Tabla de verificación (¿sé hacerlo yo solo?)
+No muestres contraseñas, frases de paso, claves privadas, tokens ni información personal innecesaria. Antes de publicar, revisa el vídeo y confirma que está en la playlist del contexto correcto. No publiques clips separados por EJ.
 
-> [!success] Marca solo lo que puedas hacer SIN mirar los apuntes
-> | Sé… | ¿Sí? |
-> | :--- | :---: |
-> | Comprobar mi versión de Git | ☐ |
-> | Configurar mi nombre y correo | ☐ |
-> | Crear la bóveda y hacer `git init` en la carpeta correcta | ☐ |
-> | Hacer el ciclo `add → commit` y leer `git status` | ☐ |
-> | Publicar un repo en GitHub (por SSH o por token) | ☐ |
-> | Ver diferencias con `git diff` y el historial con `git log` | ☐ |
-> | Deshacer un cambio con `git restore` | ☐ |
-> | Crear un `.gitignore` que proteja secretos | ☐ |
-> | Bajar cambios con `git pull` y clonar con `git clone` | ☐ |
+## 3 · Entrega en Teams
 
----
+Completa la tarea independiente de tu contexto. La descripción debe contener exactamente dos enlaces y ambos deben corresponder al mismo recorrido:
 
-## 🚑 Errores frecuentes de toda la Fase 1
+1. El repositorio de trabajo de `Manuales`: `https://github.com/TU-USUARIO/manuales-boochan-cole` en Cole o `https://github.com/TU-USUARIO/manuales-boochan-casa` en Casa.
+2. La playlist propia `B0_Curso_Git_Cole` o `B0_Curso_Git_Casa`, donde está publicado el vídeo final.
 
-> [!bug] Si algo falla, empieza por aquí
-> | Síntoma | Causa habitual | Solución |
-> | :--- | :--- | :--- |
-> | "git no se reconoce como comando" | Terminal mal / Git no instalado | Reabre la terminal; usa Git Bash en Windows. |
-> | "nothing to commit" | Olvidaste `git add` | Haz `git status`; si no hay verde, falta el `add`. |
-> | `push` rechazado | El remoto tiene cambios que no tienes | `git pull` y vuelve a `push`. |
-> | `Permission denied (publickey)` | Clave SSH no lista | Repasa tu clave, o usa HTTPS + token. |
-> | Un secreto acabó en GitHub | Faltó el `.gitignore` a tiempo | Créalo antes de trabajar; usa `git rm --cached` si ya se subió. |
-> | Hiciste `git init` en la bóveda | Carpeta equivocada | Borra ese `.git/` y hazlo dentro de la carpeta de trabajo. |
+La playlist sirve para abrir el vídeo; no añadas un tercer enlace directo al vídeo. No enlaces el repositorio del profesor ni el contexto contrario. La Bitácora y sus commits se consultan desde el repositorio propio indicado en la tabla, pero no añadas ese enlace a la tarea: cada tarea conserva sus dos enlaces establecidos.
 
----
+## 4 · Preguntas de cierre
 
-> [!tip] Siguiente paso
-> Cuando tengas la tabla de verificación completa, pasa a la **Fase 2 — Ramificación**: Marko aprende a trabajar en paralelo con ramas, a fusionarlas y a resolver sus primeros conflictos. Es la base para trabajar en **binomio** compartiendo un repositorio.
+1. ¿Por qué la bóveda contenedora no debe ser un repositorio Git?
+2. ¿Qué diferencia hay entre `git add` y `git commit`?
+3. ¿Qué nombre muestra `git remote -v` en Bitácora y en Manuales para tu contexto?
+4. ¿Qué correo de autoría configuraste en el repositorio personal y por qué la configuración global se mantuvo como referencia?
+5. ¿Qué repositorio es común y de solo lectura?
+
+La Fase 1 queda cerrada para cada contexto cuando están completos sus 16 ejercicios, su evidencia intermedia está guardada en los repositorios personales y se ha publicado el vídeo final en su playlist. La fase siguiente es Ramificación; mantén cada modalidad en su entorno y repositorios propios.

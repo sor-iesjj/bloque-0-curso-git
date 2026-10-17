@@ -1,138 +1,48 @@
-# 🔀 Curso de Git y GitHub — Índice general
+# Curso de Git y GitHub — Índice general
 
-> **Módulo:** SOR — Sistemas Operativos en Red · **Bloque 0** · **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)
+> **Módulo:** SOR · **Bloque 0** · **Profesor:** Pedro Navarro Miralles · IES Jorge Juan (Alicante)
 
----
+## 1 · Objetivo
 
-## **1 · QUÉ ES ESTE CURSO Y PARA QUÉ SIRVE**
+Aprender Git como herramienta de trabajo: registrar la evolución de archivos, comparar cambios, recuperar estados anteriores y colaborar con otras personas mediante repositorios remotos.
 
-Todo lo que hagas este año —apuntes, prácticas, el proyecto Boochan— **vive en un repositorio**. Y un repositorio se maneja con Git.
+La historia de Boochan Networks y Marko ofrece un caso práctico que se recorre en un ordenador real.
 
-Este curso te enseña Git **antes de que lo necesites de verdad**, para que el día que se te borre una carpeta o choquen dos versiones de un fichero **sepas qué hacer**, en vez de empezar de cero.
+## 2 · Dos recorridos obligatorios
 
-> [!info] 🎓 Sigues a Marko
-> **Marko** tiene 19 años y acaba de entrar como técnico junior en **Boochan Networks S.L.**, una PYME de 12 personas. Le han encargado documentar el trabajo del equipo: la empresa **nunca ha tenido manuales escritos**.
->
-> Cada ejercicio arranca de una situación real: algo que le pide **Lucía**, su responsable, o un lío que le ha dejado **Carlos**, el senior que lo sabe todo y no documenta nada.
+> [!danger] Cole y Casa son trabajos independientes
+> Repite cada práctica de principio a fin en ambos contextos. La bóveda, la bitácora, el repositorio de ejercicios, la playlist y la tarea deben corresponder al mismo contexto. No se transporta el trabajo de Cole a Casa ni se reutilizan sus remotos.
 
-> [!important] 📌 Es INDEPENDIENTE de tu trabajo real
-> Este curso vive **entero** en **la bóveda de Marko**, separada de tu `Boveda_SOR`: el material, tus apuntes y los ejercicios. Ahí se crea todo otra vez y **se rompe a propósito**.
->
-> La forma de trabajar es **la misma** que en tu bóveda real. Pero **no se mezclan** —mientras dure el curso, en `Boveda_SOR` no se ejecuta nada—, y el porqué está explicado en [🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md).
+| Elemento | Cole | Casa |
+|---|---|---|
+| Bóveda | `Boveda_Git_Cole` | `Boveda_Git_Casa` |
+| Bitácora GitHub | `bitacora-curso-git-cole` | `bitacora-curso-git-casa` |
+| Manuales GitHub | `manuales-boochan-cole` | `manuales-boochan-casa` |
+| Vídeo final de Fase 1 | Un único vídeo en `B0_Curso_Git_Cole` | Un único vídeo en `B0_Curso_Git_Casa` |
+| Repositorio de proyecto que se enlaza en Teams | `manuales-boochan-cole` | `manuales-boochan-casa` |
+| Tarea | Entrega Cole: dos enlaces (repo y playlist) | Entrega Casa: dos enlaces (repo y playlist) |
 
-> [!tip] 🧯 Si lo rompes todo
-> Para eso es una bóveda aparte: se borra y se vuelve a bajar de GitHub. Está en **[🧯 Si lo rompes todo](03_SI_LO_ROMPES_TODO.md)**.
+El repositorio `sor-iesjj/bloque-0-curso-git` es común, público y de solo lectura. Los repositorios de apoyo del profesor también conservan su uso común.
 
----
+## 3 · Antes de iniciar
 
-## **2 · 🛑 LOS TRES PASOS PREVIOS — NO TE LOS SALTES**
+Lee [Antes de empezar](01_ANTES_DE_EMPEZAR.md) y [Entregables](02_ENTREGABLES.md). En cada contexto verifica el equipo en `EJ-01-01-01` y la identidad real de Git en `EJ-01-01-02`; luego sigue el `EJ-01-01-00` correspondiente. No sustituyas la identidad global por los datos ficticios de Marko.
 
-**Antes de abrir la Fase 1**, en este orden:
+## 4 · Mapa de fases
 
-| # | Qué | Dónde está explicado |
-| :--- | :--- | :--- |
-| **1** | **Entérate de cómo se trabaja:** dónde va cada cosa y por qué. Es para leer: no se crea nada | **[🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md)** |
-| **2** | **Entérate de qué tienes que entregar** y cómo se llaman tus ficheros | **[📦 Entregables](02_ENTREGABLES.md)** |
-| **3** | **Haz el primer ejercicio:** crea `Boveda_Marko`, clona el curso completo, ábrelo en Obsidian y prepara tu bitácora | [`EJ-01-01-00`](fase-1-fundamentos/EJ-01-01-00.md) |
+| Fase | Qué se aprende | Estado |
+|---|---|---|
+| [1 · Fundamentos](fase-1-fundamentos/README.md) | `init`, commits, historial y primer `push` | Cole/Casa disponibles para los 16 ejercicios desde `EJ-01-01-00` hasta `EJ-01-03-04` |
+| [2 · Ramificación](fase-2-ramificacion/README.md) | Ramas y fusiones | Pendiente de duplicación |
+| [3 · Colaboración](fase-3-colaboracion/README.md) | Pull requests y conflictos | Pendiente de duplicación |
+| [4 · Workflows avanzados](fase-4-workflows/README.md) | Recuperación y flujos profesionales | Pendiente de duplicación |
+| [5 · Integración](fase-5-integracion/README.md) | Automatización e integración | Pendiente de duplicación |
 
-> [!danger] 🛑 Los dos primeros son de leer; el tercero es donde se monta todo
-> Si te saltas el 1, no sabrás por qué trabajas en otra bóveda. Si te saltas el 2, escribirás los apuntes al final de memoria — que **cuenta como no entregado**.
->
-> **No hace falta traer ninguna carpeta hecha:** la bóveda de Marko y el clon del repositorio público del profesor se crean dentro del primer ejercicio. Hasta el Paso 3 se lee la página pública del ejercicio; después se continúa en Obsidian. Si el profesor entrega un PDF actualizado, sirve como apoyo.
+> [!warning] Alcance disponible
+> La Fase 1 tiene ediciones Cole y Casa para todos sus ejercicios. Las fases 2–5 aún conservan guías comunes: no las ejecutes como una entrega conjunta hasta que tengan sus ediciones Cole/Casa.
 
----
+## 5 · Qué entregas
 
-## **3 · LAS CINCO FASES**
+Cada ejercicio deja evidencia en su entrada de Bitácora, archivos e historial Git del contexto; esos productos se conservan en sus repositorios y no generan vídeos separados. Al completar los 16 ejercicios, cada contexto publica un único vídeo final de Fase 1 en su playlist y realiza su tarea de Teams con exactamente dos enlaces: su repositorio de `Manuales` y su playlist. Los controles previos `EJ-01-01-01/02` se registran dentro de `EJ-01-01-00`, sin entregas aparte. La secuencia está en [Cierre de la Fase 1](fase-1-fundamentos/Cierre_Fase_1.md).
 
-Cada fase tiene **su propio índice** con sus ejercicios ordenados por dificultad. Entra en la que toque:
-
-| # | Fase | La idea central | Ejercicios | Dónde te va a servir |
-| :--- | :--- | :--- | :---: | :--- |
-| **1** | **[Fundamentos](fase-1-fundamentos/README.md)** | De cero a tener tu trabajo guardado en la nube | 16 | **Todo el curso**, desde el primer día |
-| **2** | **[Ramificación](fase-2-ramificacion/README.md)** | Trabajar en paralelo sin pisarte a ti mismo | 14 | Cuando pruebes algo sin romper lo que funciona |
-| **3** | **[Colaboración](fase-3-colaboracion/README.md)** | Pull requests, revisión y conflictos con otra persona | 14 | El **trabajo en binomio** |
-| **4** | **[Workflows avanzados](fase-4-workflows/README.md)** | Releases, hotfixes y recuperar lo que creías perdido | 13 | El día que algo se rompa de verdad |
-| **5** | **[Integración profesional](fase-5-integracion/README.md)** | Automatizar y gestionar credenciales | 11 | **Boochan**, y tu primer trabajo |
-
-> [!tip] 💡 Cómo se recorre
-> **En orden.** Cada fase se apoya en la anterior: en la 3 vas a resolver conflictos entre ramas que aprendiste a crear en la 2.
->
-> Dentro de cada fase, los ejercicios van **de menos a más**:
->
-> | Nivel | Qué es |
-> | :--- | :--- |
-> | 🟢 **N1 · Mínimo** | Lo que no se puede no saber |
-> | 🔵 **N2 · Notable** | El uso normal del día a día |
-> | 🟠 **N3 · Sobresaliente** | Lo que separa a quien administra de quien copia |
-
-> [!note] 📌 No todo es obligatorio para todo el mundo
-> El **núcleo** —Fase 1: `init`, `commit`, `push`, `pull`, `clone`— lo hace todo el mundo. Las **fases 2 y 3** cobran sentido sobre todo cuando trabajéis **en binomio** compartiendo repositorio. El resto es ampliación.
->
-> **Yo te diré qué parte toca en cada momento.**
-
----
-
-## **4 · CÓMO ES CADA EJERCICIO**
-
-Todos siguen la misma estructura, así que en cuanto hagas dos ya sabes dónde está cada cosa:
-
-```
-📌 Ficha            código, fase, nivel, playlist y nombre del vídeo
-💼 Situación        el encargo de Lucía o el lío de Carlos
-📚 Fundamento       la idea, la trampa, el vocabulario
-📹 Grabación        las obligaciones del vídeo
-🛠️ Procedimiento    📍 dónde trabajas · Paso 0 (abre tu entrada) · los pasos · la entrega
-🚩 Errores          tabla: error · qué pasa · cómo evitarlo
-✅ Entregables      qué subes y cómo se llama
-🎓 Qué has aprendido + Siguiente
-```
-
----
-
-## **5 · LO QUE ENTREGAS**
-
-**Cada ejercicio son tres cosas**, y las tres van juntas:
-
-| | |
-| :--- | :--- |
-| 📝 **Una entrada en tu bitácora** | En `Boveda_Marko/Bitacora/` |
-| 📹 **Un vídeo** | En tu playlist `B0_Curso_Git`, No listado |
-| ⬆️ **El `push`** | Que sube la entrada a tu repositorio `bitacora-curso-git` |
-
-El detalle completo —ruta, nombres, plantilla copiable y cómo se entrega— está en **[📦 Entregables](02_ENTREGABLES.md)**.
-
-> [!warning] ⚠️ Lo que haces en `Manuales` no se entrega
-> Eso **es** el ejercicio, y queda demostrado en el vídeo. Lo que se corrige es **tu entrada de la bitácora**.
-
----
-
-## **6 · CUÁNTO TIEMPO LLEVA**
-
-**~16 horas presenciales** en total, repartidas en varias semanas. No es una asignatura aparte: es **la herramienta con la que vas a entregar todo lo demás**.
-
-| Fase | Horas |
-| :--- | :---: |
-| 1 · Fundamentos | 4 h |
-| 2 · Ramificación | 3 h |
-| 3 · Colaboración | 3 h |
-| 4 · Workflows | 3 h |
-| 5 · Integración | 3 h |
-
----
-
-## **7 · Y DESPUÉS DE ESTE CURSO**
-
-| Siguiente | Qué es |
-| :--- | :--- |
-| **Curso de Shell** (`B0_Curso_Shell`) | Los comandos de Linux, con el mismo formato y el mismo Marko |
-| **Bloque 1** (`B1_Entorno`) | Máquinas virtuales, ISOs, VirtualBox e Hyper-V |
-| **Bloque 2** (`B2_Ubuntu_Local`) | El proyecto **Boochan**: tu primer servidor de verdad |
-
----
-
-> [!summary] 🎓 Lo que te llevas de este curso
-> Que Git **no es una nube ni una copia de seguridad automática**: es un registro de todo lo que has hecho, que te deja volver atrás.
->
-> Y que la diferencia entre perder una tarde de trabajo y recuperarla en diez segundos son **tres comandos** que vas a aprender esta semana.
->
-> **Empieza por:** [🛠️ Antes de empezar](01_ANTES_DE_EMPEZAR.md).
+Empieza por [Antes de empezar](01_ANTES_DE_EMPEZAR.md), después revisa [Entregables](02_ENTREGABLES.md) y abre [la Fase 1](fase-1-fundamentos/README.md).

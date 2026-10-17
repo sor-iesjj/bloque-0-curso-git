@@ -1,158 +1,79 @@
-# 🧯 Si lo rompes todo — borra la bóveda de Marko y vuelve a montarla
+# Recuperar el recorrido de Git — Cole o Casa
 
-> **Módulo:** SOR — Sistemas Operativos en Red · **Bloque 0 · Curso de Git**
->
-> **📍 Cuándo se lee:** cuando un repositorio de la bóveda de Marko ha quedado en un estado del que no sabes salir.
+> Usa esta guía solo si no puedes reparar el repositorio con `git status` y los mensajes de Git. Recupera **un contexto cada vez**.
 
----
+> [!danger] Antes de borrar
+> Los cambios sin `commit` o sin `push` pueden perderse. Copia fuera de la bóveda cualquier entrada de bitácora que necesites conservar. No borres la otra bóveda ni carpetas de `Boveda_SOR`.
 
-> [!info] 🎓 Para esto existe la bóveda de Marko
-> Estás aprendiendo. Vas a dejar un `rebase` a medias, a borrar la rama que no era o a no entender qué te está diciendo Git. **No pasa nada**: `Boveda_Marko` está hecha para poder tirarla.
->
-> Y fíjate en lo que vas a hacer para recuperarla: **bajar de GitHub lo que habías subido.** Es lo mismo que hiciste en la **Bloque 0 · Fase 0.7.2**, y es el motivo por el que un técnico hace `push` a menudo.
+## 1. Elige un único contexto
 
----
+| Recorrido | Bóveda | Bitácora remota | Manuales remoto |
+|---|---|---|---|
+| Cole | `Boveda_Git_Cole` | `bitacora-curso-git-cole` | `manuales-boochan-cole` |
+| Casa | `Boveda_Git_Casa` | `bitacora-curso-git-casa` | `manuales-boochan-casa` |
 
-## **1 · ANTES DE BORRAR: PRUEBA ESTO**
-
-Borrar es el último recurso. **Lee primero el mensaje de Git**, que casi siempre dice cómo salir:
-
-| Lo que te pasa | Cómo se sale |
-| :--- | :--- |
-| Un `merge` se ha parado con conflictos y no quieres seguir | `git merge --abort` |
-| Un `rebase` se ha parado y no quieres seguir | `git rebase --abort` |
-| Un `cherry-pick` se ha parado | `git cherry-pick --abort` |
-| Has cambiado ficheros y quieres dejarlos como en el último commit | `git restore .` |
-| La terminal no responde y abajo hay un `:` | Es el paginador: pulsa **`q`** |
-| No sabes en qué estado estás | `git status` — léelo entero, dice qué hacer |
-
-**Si con eso no sales, sigue.**
-
----
-
-## **2 · 🛑 QUÉ SE RECUPERA Y QUÉ NO**
-
-| | ¿Se recupera? |
-| :--- | :--- |
-| Todo lo que habías subido con `git push` | ✅ **Sí.** Está en GitHub |
-| Los commits que hiciste y **no** subiste | ❌ **No.** Solo existían en tu ordenador |
-| Los cambios sin commit | ❌ **No** |
-| Los vídeos | ✅ **Sí.** Están en YouTube, no en la bóveda |
-| El *hook* `commit-msg` del `EJ-04-02-05` | ❌ **No.** Vive dentro de `.git/`, que no se sube: repite ese ejercicio |
-| Los alias y la identidad de Git (`git config --global`) | ✅ **Sí.** No están en la bóveda, están en tu usuario |
-
-> [!warning] ⚠️ Si tienes una entrada de la bitácora a medias, sálvala antes
-> Abre el fichero en Obsidian, **copia el texto** y pégalo en un sitio fuera de `Boveda_Marko` (el Bloc de notas vale). Lo vuelves a pegar al terminar.
-
----
-
-## **3 · 🔴 PASO 1 — BORRA LA BÓVEDA DE MARKO**
-
-1. **Cierra Obsidian** y todas las terminales.
-2. Abre el **Explorador de archivos** y navega hasta tu carpeta **`SOR`**.
-3. **Clic derecho sobre la carpeta `SOR`** → `Abrir Git Bash aquí`.
-4. **Comprueba dónde estás. Este `pwd` es el más importante del curso:**
+Cierra Obsidian y abre una terminal en la carpeta `SOR`. Antes de borrar, comprueba la ruta y las dos bóvedas:
 
 ```bash
 pwd
 ls
 ```
 
-- **✅ Sigue solo si** la ruta termina en `/SOR` y el `ls` muestra **las dos**: `Boveda_Marko` y `Boveda_SOR`.
+Continúa solo si `pwd` termina en `/SOR` y puedes identificar con claridad la bóveda del contexto que elegiste. Si `Boveda_SOR` existe, no la borres ni la modifiques; no es requisito que esté presente en este ordenador. Si dudas, para.
 
-5. Borra **solo** la de Marko:
+## 2. Borra solo la bóveda elegida
 
-```bash
-rm -rf Boveda_Marko
-ls
-```
-
-- **✅ Bien:** el `ls` ya no muestra `Boveda_Marko`, y **`Boveda_SOR` sigue ahí**.
-
-> [!danger] 🛑 Lee la orden dos veces antes de pulsar Intro
-> `rm -rf` no pregunta y no pasa por la papelera. Lo que se escribe detrás es lo que desaparece. **Tiene que poner `Boveda_Marko`, y nada más.**
->
-> Si prefieres no usar la terminal para esto, borra la carpeta `Boveda_Marko` desde el Explorador de archivos: hace lo mismo y sí pasa por la papelera.
-
----
-
-## **4 · 🔴 PASO 2 — VUELVE A MONTARLA DESDE GITHUB**
-
-En la misma terminal, que sigue en `SOR`:
+Para Cole, sustituye el valor por `Boveda_Git_Cole`. Para Casa, usa `Boveda_Git_Casa`. Ejecuta únicamente la línea que corresponde a tu contexto:
 
 ```bash
-mkdir Boveda_Marko
-cd Boveda_Marko
-pwd
+rm -rf Boveda_Git_Cole
 ```
-
-- **✅ Bien:** la ruta termina en `/SOR/Boveda_Marko`.
-
-Y baja los tres repositorios. **El primero contiene los enunciados del profesor y se clona directamente**; los otros dos contienen tu trabajo. Cambia `TU-USUARIO` por tu usuario de GitHub **solo en las dos últimas líneas**. No quites el nombre de carpeta del final:
 
 ```bash
-git clone https://github.com/sor-iesjj/bloque-0-curso-git.git B0_Curso_Git
-git clone git@github.com:TU-USUARIO/bitacora-curso-git.git Bitacora
-git clone git@github.com:TU-USUARIO/manuales-boochan.git Manuales
-ls
+rm -rf Boveda_Git_Casa
 ```
 
-- **✅ Bien:** el `ls` muestra `B0_Curso_Git`, `Bitacora` y `Manuales`.
+Comprueba con `ls` que desapareció la bóveda elegida y que la otra sigue intacta. Esta orden no pasa por la papelera.
 
-> [!info] 🎓 ¿Y si todavía no habías creado `manuales-boochan`?
-> Ese repositorio se sube a GitHub en el `EJ-01-01-05`. Si lo rompiste antes, la tercera línea dará *"Repository not found"*: es normal. Deja las dos primeras y **repite los ejercicios `EJ-01-01-03` y `EJ-01-01-04`**, que son los que crean `Manuales`.
+## 3. Vuelve a crear y clonar los repositorios de ese contexto
 
-> [!info] 🎓 Por qué aquí no hay `git init` ni `git remote add`
-> Porque al clonar, **el remoto ya viene configurado**. `git init` y `git remote add` son para una carpeta que nace en tu ordenador; `git clone` es para una que ya existe en GitHub.
+Dentro de la misma carpeta `SOR`, elige **un solo bloque**. Sustituye `TU-USUARIO` por tu usuario real de GitHub.
 
----
-
-## **5 · 🔴 PASO 3 — COMPRUEBA QUE HA VUELTO TODO**
+**Cole:**
 
 ```bash
-cd Manuales
-git remote -v
-git log --oneline
-git branch -a
-cd ../Bitacora
-git remote -v
-git log --oneline
+mkdir Boveda_Git_Cole
+cd Boveda_Git_Cole
+git clone https://github.com/sor-iesjj/bloque-0-curso-git.git B0_Curso_Git_Cole
+git clone git@github.com:TU-USUARIO/bitacora-curso-git-cole.git Bitacora
 ```
 
-- **✅ Bien:** en `Manuales` el remoto nombra `manuales-boochan` y el `log` muestra tus commits; en `Bitacora` el remoto nombra `bitacora-curso-git` y están tus entradas.
+**Casa:**
 
-> [!warning] ⚠️ Las carpetas vacías no vuelven
-> Git guarda ficheros, no carpetas: una carpeta de `Manuales` en la que nunca metiste nada (por ejemplo `04_red`) **no está en GitHub** y no ha vuelto. No has perdido nada, y los ejercicios la crean cuando la necesitan. Si quieres dejarlo como estaba, dentro de `Manuales`:
->
-> ```bash
-> mkdir -p 00_infraestructura 01_linux_server 02_active_directory 03_almacenamiento 04_red 05_seguridad 06_integracion_windows
-> ```
+```bash
+mkdir Boveda_Git_Casa
+cd Boveda_Git_Casa
+git clone https://github.com/sor-iesjj/bloque-0-curso-git.git B0_Curso_Git_Casa
+git clone git@github.com:TU-USUARIO/bitacora-curso-git-casa.git Bitacora
+```
 
-> [!warning] ⚠️ Tus otras ramas están, pero hay que pedirlas
-> Un clon recién hecho solo trae **abierta** la rama principal. Las demás aparecen en `git branch -a` como `remotes/origin/…`. Para volver a trabajar en una:
->
-> ```bash
-> git switch develop
-> ```
->
-> Git la crea en local a partir de la de GitHub. *(Las ramas se ven en la Fase 2; si aún no has llegado, ignora este aviso.)*
+Si ya habías llegado a `EJ-01-01-05`, clona además el remoto que corresponde al contexto elegido:
 
-Por último, **abre otra vez `Boveda_Marko` en Obsidian** (`Abrir carpeta como bóveda`).
+**Cole:**
+```bash
+git clone git@github.com:TU-USUARIO/manuales-boochan-cole.git Manuales
+```
 
----
+**Casa:**
+```bash
+git clone git@github.com:TU-USUARIO/manuales-boochan-casa.git Manuales
+```
 
-## **6 · Y DESPUÉS**
+Si aún no has llegado a `EJ-01-01-05`, no ejecutes este clon: repite `EJ-01-01-03` a `-05` del mismo contexto para reconstruir `Manuales`. Nunca cambies a la bóveda del otro recorrido para completar este.
 
-Vuelve al ejercicio en el que estabas y **empiézalo desde su Paso 0**. Lo que hubieras hecho en él sin subir, se repite.
+## 4. Comprueba cada remoto por separado
 
-> [!success] 🎯 Lo que acabas de comprobar
-> Que **perder una carpeta no es perder el trabajo** si estaba subido.
->
-> Y lo contrario también: lo que no llegó a GitHub **no ha vuelto**. Apunta en tu bitácora qué habías dejado sin subir y cuánto te ha costado rehacerlo. Es la mejor razón que vas a tener nunca para hacer `push` al terminar cada ejercicio.
+En cada carpeta clonada, ejecuta `git remote -v`. El remoto de `Bitacora` y el de `Manuales` deben incluir el mismo sufijo de contexto elegido. El remoto de `B0_Curso_Git_<contexto>` debe ser `sor-iesjj/bloque-0-curso-git` y se usa solo para leer.
 
----
-
-> [!summary] 🎓 Qué has aprendido
-> A distinguir entre **arreglar** un repositorio (los `--abort` y `git restore`) y **reponerlo** desde GitHub; y que reponerlo solo devuelve lo que estaba subido.
->
-> **Vuelve a:** [🧭 Índice del curso](00_INDICE.md).
+> [!warning] Esta recuperación solo devuelve lo que se subió
+> Las entradas y commits no publicados, así como los cambios locales, no reaparecen al clonar. La identidad global de Git y las claves SSH viven fuera de la bóveda y no se borran con ella.
