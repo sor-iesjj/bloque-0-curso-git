@@ -18,7 +18,7 @@ Título: Cierre de la Fase 1 — Fundamentos de Git
 | Repositorio de trabajo y entrega | `manuales-boochan-cole` | `manuales-boochan-casa` |
 | Playlist propia | `B0_Curso_Git_Cole` | `B0_Curso_Git_Casa` |
 
-Los controles `EJ-01-01-01` y `EJ-01-01-02` se registran en la entrada del `EJ-01-01-00`; no generan entregas separadas. Las entradas de Bitácora, archivos, capturas y commits son evidencias intermedias del trabajo, no vídeos por ejercicio.
+Comprueba **16 entradas propias y 16 ejercicios grabados** por contexto, incluidos EJ0101 y EJ0102. Cada entrada sigue la plantilla de [Entregables](../02_ENTREGABLES.md#plantilla-de-la-entrada): datos del alumno, comandos/resultados, preguntas, errores, dudas, timestamps y enlaces.
 
 ## 2 · Prepara el único vídeo final
 
@@ -27,9 +27,13 @@ Cuando hayas completado el recorrido, publica un solo vídeo final en la playlis
 - Cole: `B0.G.1.F1 · COLE · Fase 1 Fundamentos — recorrido completo`
 - Casa: `B0.G.1.F1 · CASA · Fase 1 Fundamentos — recorrido completo`
 
-Presenta brevemente quién eres y qué contexto estás mostrando. Después recorre los resultados de los 16 ejercicios, en orden, con capítulos o marcas de tiempo: `EJ-01-01-00` a `EJ-01-01-05`, `EJ-01-02-01` a `EJ-01-02-06` y `EJ-01-03-01` a `EJ-01-03-04`. Para cada código, enseña el producto, estado o historial que demuestra el resultado y explica en una frase qué comprueba. No es necesario volver a escribir todos los comandos. En el tramo `EJ-01-01-00`, muestra también que completaste los controles 01 y 02.
+Reúne las grabaciones realizadas durante los ejercicios, en orden: `EJ-01-01-00` a `-05`, `EJ-01-02-01` a `-06` y `EJ-01-03-01` a `-04`. El vídeo muestra **cómo ejecutaste los pasos**, con sus explicaciones, resultados y correcciones; no es un repaso retrospectivo ni exige volver a ejecutar todo.
 
-No muestres contraseñas, frases de paso, claves privadas, tokens ni información personal innecesaria. Antes de publicar, revisa el vídeo y confirma que está en la playlist del contexto correcto. No publiques clips separados por EJ.
+Añade la presentación y los timestamps reales del montaje: inicio de cada ejercicio y de cada paso, identificados por código. Comprueba que las marcas abren el momento correcto. Publica como No listado en la playlist propia del contexto.
+
+Después pega en **cada una de las 16 entradas** el enlace al vídeo y el timestamp de su ejercicio; completa también el enlace a Manuales, ya publicado. Sustituye todos los «Pendiente de publicar/montaje», guarda las entradas y vuelve a subirlas a Bitácora. Usa la secuencia de [Antes de subir una entrada](../02_ENTREGABLES.md#antes-de-subir-una-entrada); verifica los enlaces desde GitHub.
+
+No muestres contraseñas, frases de paso, claves privadas, tokens ni información personal innecesaria. Antes de publicar, revisa el vídeo y confirma que está en la playlist del contexto correcto. La entrega conserva un único vídeo final por contexto.
 
 ## 3 · Entrega en Teams
 
@@ -48,4 +52,4 @@ La playlist sirve para abrir el vídeo; no añadas un tercer enlace directo al v
 4. ¿Qué correo de autoría configuraste en el repositorio personal y por qué la configuración global se mantuvo como referencia?
 5. ¿Qué repositorio es común y de solo lectura?
 
-La Fase 1 queda cerrada para cada contexto cuando están completos sus 16 ejercicios, su evidencia intermedia está guardada en los repositorios personales y se ha publicado el vídeo final en su playlist. La Fase 2 aún no está disponible: sus guías conservan la ruta anterior bajo SOR. Detén el recorrido aquí hasta que se publique su edición Cole/Casa en espacios independientes.
+La Fase 1 queda cerrada para cada contexto cuando están completos sus 16 ejercicios, sus 16 entradas completas están guardadas y publicadas, sus enlaces y timestamps abren y se ha publicado el vídeo final en su playlist. La Fase 2 aún no está disponible: sus guías conservan la ruta anterior bajo SOR. Detén el recorrido aquí hasta que se publique su edición Cole/Casa en espacios independientes.

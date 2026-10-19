@@ -20,9 +20,12 @@ Los nombres interiores pueden coincidir porque cada recorrido vive en un espacio
 
 ## Orden obligatorio
 
-1. En el contexto que vas a trabajar, completa [`EJ-01-01-01`](fase-1-fundamentos/EJ-01-01-01.md) y [`EJ-01-01-02`](fase-1-fundamentos/EJ-01-01-02.md). Si Git no está instalado en ese equipo, instálalo con la guía; consulta la identidad global sin cambiarla.
-2. Sigue la edición correspondiente de [`EJ-01-01-00`](fase-1-fundamentos/EJ-01-01-00.md). Allí crearás el espacio y la bóveda fuera del árbol SOR, la bitácora y clonarás el material público del profesor para leerlo.
-3. Para los ejercicios siguientes, abre siempre la carpeta del mismo contexto: Cole o Casa. Completa la secuencia `-03` → `-04` → `-05` en ese mismo recorrido.
+1. Abre la edición de **EJ-01-01-00** de tu contexto. Sus primeras comprobaciones de Git, identidad y SSH se hacen antes de crear el proyecto. Graba desde el principio y usa el borrador inicial hasta que exista Bitácora.
+2. Después completa **EJ-01-01-01 y EJ-01-01-02**, cada uno con su propia entrada y grabación; no repitas el montaje del ejercicio 00.
+3. Continúa **EJ-01-01-03 a -05**, **EJ-01-02-01 a -06** y **EJ-01-03-01 a -04**, siempre dentro del mismo contexto. Lee la preparación de entrada/OBS antes del primer comando de cada guía.
+4. Al cerrar la fase, monta un vídeo final con las ejecuciones de los 16 ejercicios y sus timestamps. Completa sus enlaces en las 16 entradas y entrega los dos enlaces del proyecto que exige Teams.
+
+Consulta [Entregables y plantilla](02_ENTREGABLES.md) antes de abrir la primera práctica. En [Fase 1](fase-1-fundamentos/README.md) tienes enlaces a las dos ediciones de los 16 códigos.
 
 > [!warning] GitHub del profesor y repositorios personales
 > `sor-iesjj/bloque-0-curso-git` es material común de lectura. Tus repositorios personales son otros: `bitacora-curso-git-cole` y `manuales-boochan-cole` para Cole; `bitacora-curso-git-casa` y `manuales-boochan-casa` para Casa. No subas trabajo al repositorio del profesor ni uses el remoto de un contexto en el otro.

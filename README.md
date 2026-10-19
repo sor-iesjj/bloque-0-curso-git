@@ -5,7 +5,7 @@
 Curso práctico de Git basado en la simulación de Marko, técnico junior de Boochan Networks. El alumno aprende a documentar trabajo, registrar cambios y sincronizarlos con GitHub.
 
 > [!danger] Dos recorridos obligatorios e independientes
-> Cada ejercicio se completa en **Cole y en Casa**. Son dos ejecuciones completas: espacios independientes `SOR_Git_Cole/Boveda_Git_Cole` y `SOR_Git_Casa/Boveda_Git_Casa`, repositorios personales con sufijos `-cole` y `-casa`, playlists distintas y tareas de Teams distintas. Para la Fase 1 se publica un único vídeo final por contexto, tras completar sus 16 ejercicios; no se sube un vídeo por ejercicio. La versión de Casa no presupone que el alumno haya terminado Cole ni permite clonar sus repositorios.
+> Cada ejercicio se completa en **Cole y en Casa**. Son dos ejecuciones completas: espacios independientes `SOR_Git_Cole/Boveda_Git_Cole` y `SOR_Git_Casa/Boveda_Git_Casa`, repositorios personales con sufijos `-cole` y `-casa`, playlists distintas y tareas de Teams distintas. Cada uno de los 16 ejercicios se graba durante su ejecución y tiene su propia entrada de Bitácora con datos, comandos, resultados, dudas, errores y enlaces. Las grabaciones se reúnen en un único vídeo final por contexto, con timestamps por ejercicio y paso. La versión de Casa no presupone que el alumno haya terminado Cole ni permite clonar sus repositorios.
 
 ## Repositorios y carpetas
 

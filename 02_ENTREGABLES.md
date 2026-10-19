@@ -1,62 +1,113 @@
 # Entregables del Curso de Git — Cole y Casa
 
-> **Lee esta página antes de cada recorrido.** Cole y Casa son dos trabajos independientes. Crea `SOR_Git_Cole` y `SOR_Git_Casa` fuera del árbol `SOR` y de `Boveda_SOR`; dentro va la bóveda de cada recorrido. Cada uno tiene sus repositorios, tarea y playlist, y se repite completo desde cero.
+> [!important] Cada práctica se graba y tiene una entrada propia
+> En **cada contexto** completas 16 ejercicios, creas **16 entradas de Bitácora** y grabas la ejecución de los 16. Incluye EJ-01-01-01 y EJ-01-01-02: ahora tienen su propia entrada. Empieza por EJ-01-01-00, que comprueba Git, identidad y SSH antes de crear la bóveda.
+>
+> Cole y Casa son trabajos obligatorios e independientes: bóvedas fuera de SOR, repositorios, grabaciones, playlists y tareas distintos. No copies ni continúes en Casa los archivos de Cole.
 
-> [!danger] Una entrega por contexto
-> Cole y Casa no comparten bóveda, remotos, playlist, vídeo ni tarea. Al terminar la Fase 1, entrega un único vídeo final de Cole y otro único vídeo final de Casa. No subas un vídeo independiente por ejercicio.
+## Grabación de cada práctica
 
-## Qué se conserva y qué se entrega
+1. Lee la guía y prepara su entrada antes de grabar. **Excepción inicial:** en EJ0100 la bóveda todavía no existe; usa un borrador y pásalo a Bitácora cuando el Paso 7 la cree.
+2. Comprueba pantalla y micrófono en OBS. Guarda los vídeos localmente fuera de las bóvedas y repositorios: no los añadas a Git.
+3. Inicia OBS antes del primer comando. Preséntate con nombre, grupo, contexto y código; muestra tu perfil de GitHub e indica qué vas a conseguir.
+4. Graba el procedimiento entero mientras lo ejecutas, con explicaciones y resultados. Conserva errores, diagnóstico y corrección; no lo sustituyas por una demostración retrospectiva.
+5. Anota el minuto real de cada paso. Al terminar, muestra la entrada y el resultado en GitHub, detén OBS y comprueba que el archivo se reproduce con imagen y audio.
 
-| Elemento | Cole | Casa |
+## Plantilla de la entrada
+
+Crea el fichero con el **nombre exacto indicado en su práctica**, dentro de `Bitacora` del contexto. Copia esta plantilla y sustituye los campos entre corchetes por tus datos y resultados reales. No copies resultados de ejemplo como si los hubieras obtenido.
+
+```markdown
+# [Código del ejercicio] — [Título] — [Cole o Casa]
+
+## Datos del alumno
+- Nombre y apellidos: [tus datos]
+- Grupo: [tu grupo]
+- Fecha: [fecha de realización]
+- Contexto: [Cole o Casa]
+- Usuario de GitHub: [tu usuario]
+
+## Objetivo
+[Qué necesitas conseguir y para qué sirve.]
+
+## Comandos y resultados
+| Comando utilizado | Qué hace | Resultado obtenido |
 |---|---|---|
-| Entradas de Bitácora y commits | `SOR_Git_Cole/Boveda_Git_Cole/Bitacora/` → `bitacora-curso-git-cole` | `SOR_Git_Casa/Boveda_Git_Casa/Bitacora/` → `bitacora-curso-git-casa` |
-| Trabajo versionado de la fase | `Manuales/` → `manuales-boochan-cole` | `Manuales/` → `manuales-boochan-casa` |
-| Único vídeo de entrega de Fase 1 | Playlist `B0_Curso_Git_Cole` | Playlist `B0_Curso_Git_Casa` |
-| Tarea | Tarea de Teams de Cole | Tarea de Teams de Casa |
+| [comando exacto] | [explicación propia] | [salida real o descripción comprobada] |
 
-Las entradas de Bitácora, los commits, los archivos de `Manuales` y las salidas de comandos son **evidencias de trabajo** que se conservan en sus repositorios correspondientes. No son vídeos ni entregas de Teams por cada EJ. Las comprobaciones `EJ-01-01-01` y `EJ-01-01-02` se anotan en la entrada de `EJ-01-01-00`; tampoco generan archivos de entrega separados.
+## Pasos y timestamps
+| Paso de la práctica | Minuto en la grabación local | Minuto en el vídeo final |
+|---|---|---|
+| [presentación o paso] | [mm:ss real] | Pendiente de montaje |
 
-## Entradas de Bitácora
+## Errores y correcciones
+| Error observado | Causa | Solución aplicada | Cómo comprobé el resultado |
+|---|---|---|---|
+| [error real, o indica que no hubo errores] | [causa] | [acción] | [comprobación] |
 
-Sigue el nombre exacto que da cada ejercicio. En las entradas registra qué se pedía, los comandos y su explicación, qué hiciste, el resultado, los errores y su solución, las respuestas a las preguntas y las dudas. **No añadas un enlace a un vídeo individual**: el vídeo final se enlaza en la tarea de Teams al cerrar los 16 ejercicios del contexto.
+## Dudas y respuestas
+[Dudas resueltas, cómo las resolviste y dudas pendientes. Si no hubo dudas, indícalo.]
 
-Sube cada entrada desde el repositorio `Bitacora` del contexto indicado por la guía. Antes de hacer `push`, comprueba `pwd` y `git remote -v`; nunca subas desde el contexto contrario.
+## Preguntas de la práctica
+[Responde con tus palabras a las preguntas del enunciado.]
 
-## Vídeos: uno por recorrido
+## Enlaces
+- Mi Bitácora en GitHub: [URL real cuando esté publicada]
+- Mi repositorio Manuales: Pendiente de publicar
+- Vídeo final de este contexto: Pendiente de publicar
+- Timestamp de este ejercicio en el vídeo final: Pendiente de montaje
+```
 
-Al completar los 16 ejercicios de Cole, prepara y sube un único vídeo final a `B0_Curso_Git_Cole`. Repite el proceso en Casa y sube otro vídeo, distinto, a `B0_Curso_Git_Casa`. Nombre previsto:
+Antes de terminar cada ejercicio completa todos los apartados de su entrada. En EJ0100 puedes dejar los enlaces pendientes hasta que el propio procedimiento cree el remoto. **Manuales remoto todavía no existe hasta EJ-01-01-05**. El vídeo final solo existirá al cerrar la fase: entonces pega su URL en las 16 entradas y ajusta los timestamps al montaje real. Guarda y sube de nuevo las entradas que hayas completado; no basta con cambiar la copia local.
 
-- Cole: `B0.G.1.F1 · COLE · Fase 1 Fundamentos — recorrido completo`
-- Casa: `B0.G.1.F1 · CASA · Fase 1 Fundamentos — recorrido completo`
+## Un vídeo final por proyecto y contexto
 
-El vídeo debe permitir reconocer al alumno y el contexto, y mostrar los resultados relevantes de los 16 códigos: `EJ-01-01-00` a `-05`, `EJ-01-02-01` a `-06` y `EJ-01-03-01` a `-04`. No hace falta volver a teclear cada comando; muestra los productos, estados e historiales resultantes en la bóveda y en GitHub, explicando brevemente qué demuestra cada uno. Organiza la descripción con capítulos/timestamps para los 16 códigos, además de la presentación.
+Cada práctica se graba durante su ejecución. Puedes hacer varias sesiones y conservar archivos locales como `EJ0100_Cole.mkv` o `EJ0100_Casa.mp4`, manteniendo la extensión real de OBS. Al completar los 16 ejercicios **reúne esas grabaciones en un único vídeo final del contexto**, en el mismo orden de las prácticas. No se pide volver a ejecutar todo ni reemplazarlo por un resumen de resultados.
 
-Las capturas de pantalla, la Bitácora y los commits son evidencias intermedias y permanecen en los repositorios del contexto. No se suben como clips separados. Publica el vídeo final dentro de la playlist del contexto. En la descripción de cada tarea de Teams incluye **exactamente dos enlaces del mismo contexto** —el repositorio de Manuales y la playlist, donde estará el vídeo—; no añadas un tercer enlace al vídeo:
+- Cole: `B0.G.1.F1 · COLE · Fase 1 Fundamentos — recorrido completo`, en `B0_Curso_Git_Cole`.
+- Casa: `B0.G.1.F1 · CASA · Fase 1 Fundamentos — recorrido completo`, en `B0_Curso_Git_Casa`.
 
-1. Repositorio de `Manuales`: `https://github.com/TU-USUARIO/manuales-boochan-cole` o `https://github.com/TU-USUARIO/manuales-boochan-casa`.
-2. Playlist correspondiente: enlace de `B0_Curso_Git_Cole` o `B0_Curso_Git_Casa`.
+En la descripción del vídeo añade `00:00 Presentación` y los timestamps **reales del montaje**: uno para el inicio de cada ejercicio y uno para cada paso dentro de él, identificados por código. Ejemplo de formato (sustituye `mm:ss`, no publiques el marcador):
 
-No pongas en la tarea enlaces del otro contexto ni del repositorio público del profesor. La secuencia de grabación y cierre está detallada en [Cierre de la Fase 1](fase-1-fundamentos/Cierre_Fase_1.md).
+```text
+00:00 Presentación
+mm:ss EJ0100 — Preparación y comprobaciones
+mm:ss EJ0100 — Paso 1: espacio independiente
+mm:ss EJ0100 — Paso 2: bóveda
+[continúa con todos los pasos de EJ0100]
+mm:ss EJ0101 — Comprobar Git instalado
+[continúa con sus pasos y el resto de los ejercicios]
+```
+
+No incluyas contraseñas, claves privadas, frases de paso ni tokens. Si aparecen por accidente, retíralos antes de publicar sin ocultar el trabajo evaluable. Publica el vídeo como **No listado**, comprueba el enlace y añádelo a su playlist. Cole y Casa conservan cada uno su vídeo; no reutilices una grabación entre contextos.
+
+## Qué recibe cada tarea de Teams
+
+Cada proyecto conserva su tarea independiente y su playlist. **La tarea final lleva exactamente dos enlaces del mismo contexto**:
+
+1. Tu repositorio de `Manuales`: `https://github.com/TU-USUARIO/manuales-boochan-cole` o `https://github.com/TU-USUARIO/manuales-boochan-casa`.
+2. Su playlist `B0_Curso_Git_Cole` o `B0_Curso_Git_Casa`, con el vídeo final dentro.
+
+El enlace directo al vídeo y su timestamp van **dentro de cada entrada de Bitácora**; no se pide un tercer enlace en la tarea. Los repositorios de Bitácora son `bitacora-curso-git-cole` y `bitacora-curso-git-casa`. Consulta [Cierre de la Fase 1](fase-1-fundamentos/Cierre_Fase_1.md) antes de entregar.
 
 ## Antes de subir una entrada
 
-Abre una terminal dentro de `Bitacora` del espacio independiente correspondiente y verifica primero que la ruta física no tiene ningún ancestro llamado `SOR` o `Boveda_SOR`. Si aparece, no ejecutes nada y sigue la guía de recuperación.
+En Windows, abre Git Bash desde la carpeta `Bitacora` del contexto que vas a entregar; en macOS o Linux, abre Terminal desde esa carpeta. Antes de subir, compara la ruta completa que muestra `pwd` con la ruta de tu contexto. No ejecutes `git push` si algún componente de la ruta se llama `SOR` o `Boveda_SOR`, o si no coincide el nombre Cole/Casa.
 
 ```bash
-pwd -P
-ruta=$(pwd -P | tr '[:upper:]' '[:lower:]')
-case "$ruta" in
-  */sor|*/sor/*|*/boveda_sor|*/boveda_sor/*) echo "ERROR: ubicación dentro de SOR; detente"; exit 1 ;;
-  */sor_git_cole/boveda_git_cole/bitacora|*/sor_git_casa/boveda_git_casa/bitacora) echo "Ruta fuera de SOR" ;;
-  *) echo "ERROR: ruta/contexto incorrectos; detente"; exit 1 ;;
-esac
+pwd
 git remote -v
 git status
 ```
 
-Para Cole, `pwd` debe terminar en `SOR_Git_Cole/Boveda_Git_Cole/Bitacora` y el remoto incluir `bitacora-curso-git-cole`. Para Casa, debe terminar en `SOR_Git_Casa/Boveda_Git_Casa/Bitacora` y nombrar `bitacora-curso-git-casa`. Si algo difiere, detente y no ejecutes `git push`.
+**Línea por línea:**
+1. `pwd` muestra la carpeta actual. Cole debe terminar en `SOR_Git_Cole/Boveda_Git_Cole/Bitacora`; Casa, en `SOR_Git_Casa/Boveda_Git_Casa/Bitacora`. Lee también los componentes anteriores de la ruta para confirmar que no está dentro de `SOR` ni `Boveda_SOR`.
+2. `git remote -v` muestra el repositorio al que se enviarían los cambios. Cole debe incluir `bitacora-curso-git-cole`; Casa debe incluir `bitacora-curso-git-casa`.
+3. `git status` muestra qué cambios se prepararían o si queda algo pendiente.
 
-Después, usa los comandos de entrega de la entrada y comprueba en GitHub que aparece en el repositorio correcto. Un `push` sin error no demuestra que hayas enviado al contexto que te corresponde.
+Si una ruta, remoto o estado no coincide con el contexto elegido, detente: no ejecutes `git push`. Consulta al profesor y sigue [🧯 Recuperar el recorrido](03_SI_LO_ROMPES_TODO.md).
+
+Cuando las tres comprobaciones coincidan, usa los comandos de entrega de la entrada y comprueba en GitHub que el cambio llegó al repositorio correcto. Un `push` sin error no demuestra que hayas enviado al contexto que te corresponde.
 
 > [!warning] Repositorio de ejercicios
 > Los comandos de trabajo se ejecutan en `Manuales`. Comprueba su `git remote -v`: tiene que ser `manuales-boochan-cole` en Cole y `manuales-boochan-casa` en Casa. La Bitácora se sube desde su repositorio interior. La bóveda contenedora no es un repositorio.

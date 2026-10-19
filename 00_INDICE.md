@@ -26,7 +26,7 @@ El repositorio `sor-iesjj/bloque-0-curso-git` es común, público y de solo lect
 
 ## 3 · Antes de iniciar
 
-Lee [Antes de empezar](01_ANTES_DE_EMPEZAR.md) y [Entregables](02_ENTREGABLES.md). En cada contexto verifica el equipo en `EJ-01-01-01` y la identidad real de Git en `EJ-01-01-02`; luego sigue el `EJ-01-01-00` correspondiente. No sustituyas la identidad global por los datos ficticios de Marko.
+Lee [Antes de empezar](01_ANTES_DE_EMPEZAR.md) y [Entregables](02_ENTREGABLES.md). Empieza por `EJ-01-01-00`: comprueba Git, identidad y SSH antes de crear la bóveda. Después sigue `EJ-01-01-01`, `EJ-01-01-02` y los ejercicios restantes en orden. No sustituyas la identidad global por los datos ficticios de Marko.
 
 ## 4 · Mapa de fases
 
@@ -43,6 +43,8 @@ Lee [Antes de empezar](01_ANTES_DE_EMPEZAR.md) y [Entregables](02_ENTREGABLES.md
 
 ## 5 · Qué entregas
 
-Cada ejercicio deja evidencia en su entrada de Bitácora, archivos e historial Git del contexto; esos productos se conservan en sus repositorios y no generan vídeos separados. Al completar los 16 ejercicios, cada contexto publica un único vídeo final de Fase 1 en su playlist y realiza su tarea de Teams con exactamente dos enlaces: su repositorio de `Manuales` y su playlist. Los controles previos `EJ-01-01-01/02` se registran dentro de `EJ-01-01-00`, sin entregas aparte. La secuencia está en [Cierre de la Fase 1](fase-1-fundamentos/Cierre_Fase_1.md).
+Cada ejercicio se **graba durante su ejecución** y tiene **su propia entrada de Bitácora**, incluidos EJ0101 y EJ0102. Son 16 entradas y 16 ejercicios grabados por contexto. La entrada lleva datos del alumno, comandos y resultados, preguntas, errores, dudas, timestamps y enlaces a GitHub y al vídeo final cuando exista. Sigue la [plantilla de Entregables](02_ENTREGABLES.md#plantilla-de-la-entrada).
+
+Al completar la fase reúne sus grabaciones en **un vídeo final por contexto**, con timestamps por ejercicio y paso. Enlaza ese vídeo desde las entradas y entrega en la tarea de Teams los dos enlaces previstos: repositorio de Manuales y playlist del mismo contexto. Consulta [Cierre de la Fase 1](fase-1-fundamentos/Cierre_Fase_1.md).
 
 Empieza por [Antes de empezar](01_ANTES_DE_EMPEZAR.md), después revisa [Entregables](02_ENTREGABLES.md) y abre [la Fase 1](fase-1-fundamentos/README.md).
